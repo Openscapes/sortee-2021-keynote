@@ -54,28 +54,45 @@ background-position: bottom left
 
 ???
 
-Thank you so much. I'm really excited to be here today to talk about R and teamwork for better science in less time. 
+Thank you so much. I'm really excited to be here today to talk about Openscapes and working towards more open, reproducible, inclusive practices for research teams and communities
 
 I'm so happy to have the chance to speak with you all today because —
 
 ---
-# Hello. I'm Julie. 
-
-I'm a marine ecologist turned open data science champion
-
-2 pics: squid release, teaching at mbari
+# Cascadia Intro
 
 ---
-# open science is a movement that will help you do BSILT. You engage with this movement through teams.
+# Hello. I'm Julie. 
 
-Key takeaway: 
+<2 pics: squid release, teaching at mbari>
 
-Main point:: Open, Reliable, and Transparent is a team effort:  And what I'd like you to leave this talk with is the idea that teams and community are all around you, supporting you in your research. 
+??
+
+I'm a marine ecologist turned open science champion. And what I'd like to talk with you today is about how we can move to towards more open, reproducible, inclusive practices for research teams and communities"
+
+
+---
+# Open science is a movement that will help you do BSILT. 
+
+You engage with this movement through teams.
+
+Many entryways to open science: I've seen data science as a criticaly entryway that meets researchers' immediate needs  and 
 
 THEME: As open science improves your daily life, you can also give back and help others. This is what the open science movement is. 
 
+
+Main point:: Open, Reliable, and Transparent is a team effort  And what I'd like you to leave this talk with is the idea that teams and community are all around you, supporting you in your research. 
+
 ---
-# SEEDS slide 2
+# Openscapes 
+
+helps research groups reimagine data analysis, develop modern skills that are of immediate value to them, 
+and cultivate collaborative and inclusive research communities.
+
+Engage • Empower • Amplify
+
+
+SEEDS slide 2
 
 https://docs.google.com/presentation/d/1Mc__4NfMlLHvChoAWnvEqUocP8JS9Ya317hHRaZhLnM/edit#slide=id.gbb069af1de_0_815
 
@@ -85,6 +102,13 @@ Maybe Slide 3 too
 Means so much I've moved away from doing my own research to pass forward. 
 
 Mozilla Fellowship, Openscapes, operated at NCEAS, Co-directed with Erin Robinson. 
+
+I'm driven by statements from my colleagues like this: 
+
+---
+Chelsea Wood quote
+
+this feeling of not feeling prepared 
 
 ---
 Luke
@@ -115,14 +139,11 @@ SORTEE GSlide 7: https://docs.google.com/presentation/d/1HGw4P095-lblHiGQHXYidHi
 
 Co-create, less re-inventing. more inclusion and belonging.
 
-(Feedback loop?)
-
 ---
-R communities
+# (Feedback loop?)
 
-We got into open science because we were deliberately welcomed by the R community. ODS is like the Force, it's not something youre' going to come up with on your own unless you see adn are welcomed. 
+I'd like to talk about 
 
-First some background:
 
 ---
 # SEEDS OHI slides
@@ -147,12 +168,16 @@ Join the open science movement
 Not just about tools, DEI
 
 ---
-# Main message
+# Main message: open, reproducible, inclusive practices
 
 ## 2 sub-messages
+collab coding: less reinventing 
+collab comms: streamline onboarding
+
+All Together Now: more co-creation, reimagine science.
 
 ---
-# Sub-message #1 
+# Sub-message #1: 
 Code collaboratively (for future us?)
 
 
