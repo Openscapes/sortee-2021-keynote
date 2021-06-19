@@ -56,30 +56,57 @@ background-position: bottom left
 
 Thank you so much. I'm really excited to be here today to talk about Openscapes and working towards more open, reproducible, inclusive practices for research teams and communities
 
-I'm so happy to have the chance to speak with you all today because —
+Transition: So here we are talking about open science, and —
 
 ---
-# Cascadia Intro
+# Open Science
+
+“A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding” Ramachandran et al. 2021
+
+???
+
+A definition of open science that really resonates with us is that it is “A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding”. 
 
 ---
-# Hello. I'm Julie. 
+# Open Data Science
 
-<2 pics: squid release, teaching at mbari>
+Images: #rstats
 
-??
+Data science is an entryway to open science: turn open science from an idea to a daily benefit
 
-I'm a marine ecologist turned open science champion. And what I'd like to talk with you today is about how we can move to towards more open, reproducible, inclusive practices for research teams and communities"
+???
 
+For me it was really the R community that introduced and welcomed me to open science. These groups helped me feel welcome and included and helped me see that data science is an entryway to open science from an idea to a daily benefit
+
+science as a movement that we could be a part of and that was a daily benefit to our work
+
+. ENTRYWAY.
+Many entryways to open science: I've seen data science as a criticaly entryway that meets researchers' immediate needs
+
+So how do you do that? through teams.
 
 ---
-# Open science is a movement that will help you do BSILT. 
+# OHI and Openscapes logos
+
+
+???
+I'll tell you about 2 examples: teams. 
 
 You engage with this movement through teams.
 
-Many entryways to open science: I've seen data science as a criticaly entryway that meets researchers' immediate needs  and 
-
 THEME: As open science improves your daily life, you can also give back and help others. This is what the open science movement is. 
 
+
+Allison: For the past 8 years I have been collaborating and contributing to open science through teaching and communities. 
+
+
+
+Open science is a movement that will help you do better science in less time, and it's something that all ecologists can be a part of
+
+(And while these days, we both feel like working as data scientists and teachers in R is a wonderfully supportive, collaborative, and inspiring space to work. But we didn’t always feel like this. )
+
+---
+THEME - As open science improves your daily life, you can also give back and help others. This is what the open science movement is. 
 
 Main point:: Open, Reliable, and Transparent is a team effort  And what I'd like you to leave this talk with is the idea that teams and community are all around you, supporting you in your research. 
 
@@ -129,6 +156,8 @@ and become part of a team. We all do science, so we all are on many teams of dif
 ## Open science as a movement
 
 Define open science? 
+
+Open science is a movement that will help you do BSILT. 
 GOTV. 
 
 Daily benefit that then you can pass forward. 
@@ -142,7 +171,6 @@ Co-create, less re-inventing. more inclusion and belonging.
 ---
 # (Feedback loop?)
 
-I'd like to talk about 
 
 
 ---
