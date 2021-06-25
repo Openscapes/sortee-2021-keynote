@@ -339,7 +339,7 @@ knitr::include_graphics("images/xaringan-flipook-evamaerey.png")
 
 <br>
 
-*<https://bookdown.org/yihui/rmarkdown/xaringan>, <http://arm.rbind.io/slides/xaringan> *
+*<https://bookdown.org/yihui/rmarkdown/xaringan>, <http://arm.rbind.io/slides/xaringan>, https://evamaerey.github.io/ggplot_flipbook*
 ]
 
 ---
