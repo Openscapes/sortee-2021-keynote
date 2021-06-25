@@ -10,7 +10,7 @@ output:
     chakra: libs/remark-latest.js # with @bjungbogati tidyverse dev toulouse: need to save this file to knit offline!
     lib_dir: libs 
     nature:
-      #slideNumberFormat: "" # comment out to disable
+      slideNumberFormat: "" # comment out to disable
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -263,6 +263,16 @@ class: top, center
 [Good Enough Practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#) - Wilson et al  
 [Not so Standard Deviations](https://nssdeviations.com/) - Parker & Peng 
 ]
+
+---
+class: top, center
+background-image: url(images/horst-workflow.png)
+background-position: 50% 90%
+background-size: 80%
+
+## Address shared needs
+
+.footnote[[Allison Horst](https://www.allisonhorst.com/)]
 
 ---
 class: top, center
