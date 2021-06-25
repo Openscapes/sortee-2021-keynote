@@ -17,9 +17,7 @@
 
 
 class: title-slide, right, bottom
-background-image: url(images/horst-starwars-rey.jpg)
-background-size: contain
-background-position: bottom left 
+
 
 
 ## Openscapes:&lt;br&gt;Better Science for Future Us
@@ -62,6 +60,8 @@ background-size: 60%
 ### "Seaside Chats"
 
 ???
+
+Build trust, confidence talking about data and sharing imperfect work. 
 
 Seaside chats. PI-supported, not attended. 
 Seaside chats. Prioritize time. Shared space. Normalize. Build up space to ask these questions, develop vocabulary around them. (stuff from CSCCE slides?)
@@ -115,12 +115,16 @@ class: top, center
 
 
 .pull-right[
-### Iterative collaboration
+### Build trust, confidence, skills
 
 ```r
 source("julies_script.R")
 ```
 ]
+
+???
+My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
+Nonetheless, saved as scripts, in a project-oriented workflow, shared via GitHub
 
 ---
 class: top, center
@@ -139,7 +143,7 @@ class: top, center
 
 
 .pull-right[
-### Iterative collaboration
+### Build trust, confidence, skills
 
 ```r
 source("julies_script.R")
@@ -148,6 +152,10 @@ source("common.R")
 ```
 ]
 
+???
+
+Introduced style guide, tidyverse &gt;&gt; make it easier for code review
+Scope of analysis: Data prep ended as tidy data, then modelling starts
 
 ---
 class: top, center
@@ -166,7 +174,7 @@ class: top, center
 
 
 .pull-right[
-### Iterative collaboration
+### Build trust, confidence, skills
 
 ```r
 source("julies_script.R")
@@ -178,6 +186,10 @@ remotes::install_github("ohicore")
 
 *&lt;https://github.com/ohi-science/ohicore&gt;*
 ]
+
+???
+
+Common scripts, lookup tables &gt;&gt; eventually a package
 
 ---
 class: top, center
@@ -232,10 +244,24 @@ class: top, center
 .pull-right[
 ### Team workflows
 [How to Name Files](https://speakerdeck.com/jennybc/how-to-name-files?slide=1) - Bryan  
-[Dat Organization in Spreadsheets](https://peerj.com/preprints/3183/) - Broman &amp; Woo  
+[Data Organization in Spreadsheets](https://peerj.com/preprints/3183/) - Broman &amp; Woo  
 [Good Enough Practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#) - Wilson et al  
-[Not so Standard Deviations](https://nssdeviations.com/) - Parker &amp; Peng 
+[Not So Standard Deviations](https://nssdeviations.com/) - Parker &amp; Peng 
 ]
+
+&lt;br&gt;
+
+### seaside chats • lab "hackathons" • coding clubs • blogs • slides • tutorials • (un)conferences 
+
+???
+
+Introduced style guide, tidyverse &gt;&gt; make it easier for code review
+Scope of analysis: Data prep ended as tidy data, then modelling starts
+Common scripts, lookup tables &gt;&gt; eventually a package
+Scope of scripts: modular preferred to long epic tome (iterative)
+OHI Hackathons: e.g. main lookup table, purge plyr, reorg ohicore
+Migrated from .R to .Rmd: share methods/instruction, pub’d via GitHub 
+
 
 ---
 class: top, center
@@ -260,6 +286,29 @@ class: top, center
 &lt;img src="images/ohi-tbx-training.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 ---
+class: top, center
+## Think ahead for Future Us 
+
+.pull-left[
+### RStudio Visual Editor
+
+&lt;img src="images/rstudio-visual-editor.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+*&lt;https://rstudio.github.io/visual-markdown-editing&gt;*
+]
+
+
+.pull-right[
+### Slides with R: `xaringan`
+&lt;img src="images/xaringan-flipook-evamaerey.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+&lt;br&gt;
+
+*&lt;https://bookdown.org/yihui/rmarkdown/xaringan&gt;, &lt;http://arm.rbind.io/slides/xaringan&gt; *
+]
+
+---
+exclude: TRUE
 class: top, center
 ## Think ahead for Future Us 
 
