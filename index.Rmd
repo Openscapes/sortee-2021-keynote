@@ -1,5 +1,5 @@
 ---
-title: "Openscapes: Towards more open, reproducible, inclusive practices for research teams and communities"
+title: "Openscapes:<br>Better Science for Future Us"
 subtitle: 
 author: 'Julia Stewart Lowndes, PhD' 
 role: ''
@@ -60,86 +60,47 @@ Thank you so much. I'm really excited to be here today to talk about Openscapes:
 Transition: the motivation for all my work now is that default approaches to data-intensive research feel like this. 
 
 ---
-Luke
+class: top, center
+background-image: url(images/lowndes-2017-betterscience-table1.png)
+background-position: 50% 50%
+background-size: 90%
 
-???
-
-Like luke, staring at chanllenges we can't solve with the skillsets we have. And the thing is, we can't solve this in a good way on our own. No matter what kinds of workarounds we might design to solve this problem, it's not going to be enough to meaningingfulyly contribute in a way that we can continue to learn from and repeat. 
-
----
-Yoda
-
-???
-
-Luckily, don't have to. Because open science is something as powerful as the force that we can learn and participate in. It's something we could never imagine on our own, or design on our own, and nor should we. We have other responsibilities and this is something we can learn and be a part of 
-
----
-Team
-
-???
-
-And being a part of is key. This is not something you do alone. 
-
-Focus on Future Us. Research teams still don’t know how to work as teams. 
-
----
-Champions illustration
-
-???
-helping find their teams, identify their trailhead, find the force. mixing metaphors here a bit but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
-
-Vision: Providing people an opportunity to see that it can be different. Ripple out. True culture change. 
-
----
-OHI+Openscapes
-
-???
-
-Openscapes comes from my personal personal story as a researcher through the OHI and how through that I saw a bigger pattern that needed to be solved. And this is the 10 year anniversary of OHI so it's a good time to reflect on that as origins for Openscapes. 
-
----
-Lessons learned: 
-
-- default approaches to science aren't reproducible, efficient, or inclusive
-- code openly & teach through the R community
-- practice open science through the OHI
-- be an open leader through Mozilla
-
-<!---And I'm still learning
-I learned how to flywheel with Erin Robinson
-I learned how to be braver with Tara Robertson ---->
-
-???
-How can I combine these things and what I learned into a program that could accelerate teams doing open science and data science with community
-
-
----
-OHI intro
-
-used open data from the start. combining ~100 open data sets. but our code and analysis was closed.
-
-???
-
-My job with OHI for 6+ years was to contribute to our annual global assessment and lead the OHI+ program to help other teams use our science. An opportunity for me to learn closely doing research with my team and then turn around and help other teams
-
-OHI informed how I work with people around data. I needed to fundamentally do my work in a diff way. I saw that other teams were having that same trouble. Seeing that others need that too. That’s what Openscapes is. 
-
----
-BSILT. Table 1. 
+### OHI Team Pathway
 
 ???
 
 We shared our story here about the tools. Table 1. I want to talk more about the behind-the-scenes, what we didn't describe in the paper but what is key to making this all happen. 
 
 ---
-# Lesson 1: talk about data (team)
+class: top, center
+background-image: url(images/horst-seaside-chats.jpg)
+background-position: 50% 90%
+background-size: 60%
 
-Seaside chats. PI-supported, not attended. 
+
+## Create space: how to talk about data
+### "Seaside Chats"
 
 ???
 
+Seaside chats. PI-supported, not attended. 
 Seaside chats. Prioritize time. Shared space. Normalize. Build up space to ask these questions, develop vocabulary around them. (stuff from CSCCE slides?)
 PI doesn't need more meetings. TRUST WITHIN TEAM. 
+
+---
+class: top, center
+background-image: url(images/ohi-gh-org-name.png)
+background-position: 50% 90%
+background-size: 85%
+
+## Create place: where to put shared things
+
+???
+
+GitHub Org, Google Drive.
+And make sure everyone is comfortable using those tools. 
+Michelle Fishbowl Chat.
+GitHub Clinics.
 
 ---
 # Identify shared needs
@@ -149,6 +110,9 @@ PI doesn't need more meetings. TRUST WITHIN TEAM.
 Identify how people work, identify the common parts where we are all reinventing. One concrete example: we were all spending a ton of time with Country names. 
 
 Let me started talking about data and analysis we realized they were tedious common things we were all doing whether that was consolidating species names or location names saving data making plots we were all reinventing so through talking about this we were able to start putting that common code somewhere else where we could all you know somewhere where we could all access it and then normalize doing that this then let us find other common not only common problems but common ways to innovate together and take the next step we work on common documentation and then common automation and upskilling.
+
+
+eg: https://github.com/OHI-Science/ohiprep_v2020/blob/gh-pages/workflow/R/common.R
 
 ---
 # Address shared needs
