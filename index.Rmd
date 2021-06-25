@@ -291,6 +291,7 @@ Migrated from .R to .Rmd: share methods/instruction, pub’d via GitHub
 
 
 ---
+exclude: TRUE
 class: top, center
 background-image: url(images/horst-workflow.png)
 background-position: 50% 90%
@@ -317,6 +318,17 @@ knitr::include_graphics("images/ohi-tbx-training.png")
 ```
 
 ---
+class: top, center
+## Think ahead for Future Us 
+
+### OHI Fellows program
+
+```{r fellows, out.width = '90%', fig.align='center'}
+knitr::include_graphics("images/ohi-team-2018b-crop.jpeg")
+```
+
+---
+exclude: TRUE
 class: top, center
 ## Think ahead for Future Us 
 
