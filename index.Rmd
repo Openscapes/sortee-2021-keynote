@@ -58,6 +58,76 @@ Thank you so much. I'm really excited to be here today to talk about Openscapes:
 Transition: the motivation for all my work now is that default approaches to data-intensive research feel like this. 
 
 ---
+---
+Luke
+
+???
+
+Like luke, staring at chanllenges we can't solve with the skillsets we have. And the thing is, we can't solve this in a good way on our own. No matter what kinds of workarounds we might design to solve this problem, it's not going to be enough to meaningingfulyly contribute in a way that we can continue to learn from and repeat. 
+
+---
+Yoda
+
+???
+
+Luckily, don't have to. Because open science is something as powerful as the force that we can learn and participate in. It's something we could never imagine on our own, or design on our own, and nor should we. We have other responsibilities and this is something we can learn and be a part of 
+
+---
+Team
+
+???
+
+And being a part of is key. This is not something you do alone. 
+
+Focus on Future Us. Research teams still don’t know how to work as teams. 
+
+---
+Champions illustration
+
+???
+helping find their teams, identify their trailhead, find the force. mixing metaphors here a bit but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
+
+Vision: Providing people an opportunity to see that it can be different. Ripple out. True culture change. 
+
+---
+OHI+Openscapes
+
+???
+
+Openscapes comes from my personal personal story as a researcher through the OHI and how through that I saw a bigger pattern that needed to be solved. And this is the 10 year anniversary of OHI so it's a good time to reflect on that as origins for Openscapes. 
+
+---
+Lessons learned: 
+
+- default approaches to science aren't reproducible, efficient, or inclusive
+- code openly & teach through the R community
+- practice open science through the OHI
+- be an open leader through Mozilla
+
+<!---And I'm still learning
+I learned how to flywheel with Erin Robinson
+I learned how to be braver with Tara Robertson ---->
+
+???
+How can I combine these things and what I learned into a program that could accelerate teams doing open science and data science with community
+
+I was turned into a Champion for open science because it transformed the way I work and the way I think. I wanted to pass this forward. Through the Champions program. 
+
+
+---
+OHI intro
+
+used open data from the start. combining ~100 open data sets. but our code and analysis was closed.
+
+???
+
+My job with OHI for 6+ years was to contribute to our annual global assessment and lead the OHI+ program to help other teams use our science. An opportunity for me to learn closely doing research with my team and then turn around and help other teams
+
+OHI informed how I work with people around data. I needed to fundamentally do my work in a diff way. I saw that other teams were having that same trouble. Seeing that others need that too. That’s what Openscapes is. 
+
+---
+
+---
 class: top, center
 background-image: url(images/lowndes-2017-betterscience-table1.png)
 background-position: 50% 90%
@@ -355,7 +425,6 @@ knitr::include_graphics("images/xaringan-flipook-evamaerey.png")
 ]
 
 ---
-exclude: TRUE
 class: top, center
 ## Think ahead for Future Us 
 
@@ -365,5 +434,395 @@ knitr::include_graphics("images/ods-community-logos.png")
 
 
 ### [rOpenSci](https://ropensci.org) • [RStudio](https://rstudio.com) • [Mozilla](https://mozilla.org) • [RLadies](https://rladies.org) • [Carpentries](https://carpentries.org/)  
+
+---
+# Think ahead for Future Us // giving back to the community. 
+
+onboarding docs: ods training, toolbox training, fellows. Blogs. 
+
+???
+Expanded the way we can contribute to science. Blogs. Dashboards. Tweets. Community events. 
+Talking about data helped us become leaders ourselves. Beyond less reinventing, but for more innovation. teaching each other, sharing what we learned. RLadiesSB, Eco-Data-Science
+
+---
+# Better science for future us
+
+???
+
+Pause and speak to this idea of future us. This is the idea that everything we do we should be thinking about efficiency onwards. MORE.
+
+---
+Openscapes. Zoom faces? Tweets?
+
+???
+
+that's key elements for Openscapes. Center DEI. help people think about Future Us. how can we be more inclusive, better onboarding? 
+
+Providing people an opportunity to see that it can be different. Ripple out. 
+
+---
+Impact from Openscapes
+
+---
+Ripple out from Openscapes GH clinic for their boss. 
+Artwork 
+
+---
+(All we can save)?
+
+---
+Pathway. 
+
+Through Oopenscapes we normalize talking about data. We introduce this landscapes of communities and have each team have seaside chats. PIs participate in the cohort calls to see what's possilble but aren't required to attend Seaside Chats: build up that horizontal leadership and trust. Help people find their trailheads and 
+
+---
+# I learned reprise
+
+I developed the champions program they're doing this.
+But luckily I didn't stop learning I learned with Aaron and Tara
+This flywheel is a way to grow and scale to truly be part of the open science movement through growth and scaling. This element here about training more mentors and building more curriculum and enabling them to build curriculum is a big part for work now. We're working with NASA to do this through the Earth data science cookbook and we're doing this also with the more foundation with protocols to bio
+
+
+???
+Led 2 cohorts before meeting Erin Robinson. 
+
+
+---
+# FLywheel
+Protocols and athe Cloud.
+The basics: starting to transition your group into open science 
+I need to do ML but I don’t know how to code. 
+I need to make bread, don’t have flour
+Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
+Overwhelm we hold for the PIs. it doesn’t have to be just you. Future Us. 
+
+---
+# Cookbook
+
+
+Movement. Communities. Seeing what’s possible. Their role in my OHI journey, passing that forward. Educational and GH clinics, Efficiency Tips
+Openscapes’ role
+Contributing to that movement. 
+ 
+---
+**Main things: Teams. Kinder science.** 
+
+The holes I spotted. Invested in the curriculum. 
+
+
+Champions are supporting teams that are interested in making this big investment in 
+Good stories: Gavin, Allison
+Just the beginning of our movement
+
+???
+Been trying to describe this concisely as better science, as kinder science, as open data science, but really ultimately I hope it's just science I hope that this is what science is and that we can all do our part to be a part of it
+
+---
+I've just learned an approach that's used in development global development that is people process technology and I think that that really describes my experience in the are and open science communities and are ethos for open escapes so I'm really thrilled with what we can all do you're going forward
+
+---
+Data Feminism. All We Can Save. Feminist perspective
+
+
+
+---
+# MAIN POINT
+
+Main point:: open science is a movement that will help you do BSILT
+
+It includes you. 
+
+Key to this is to focus on several things at the same time:
+- data science
+- teamwork
+- diversity, equity, and inclusion 
+You engage with this movement through teams. And what I'd like you to leave this talk with is the idea that teams and community are all around you, supporting you in your research. 
+
+THEME: As open science improves your daily life, you can also give back and help others. This is what the open science movement is. 
+
+
+Main point:: Open, Reliable, and Transparent is a team effort  And what I'd like you to leave this talk with is the idea that teams and community are all around you, supporting you in your research. 
+
+???
+Over the past decade I've been learning a ton about 
+
+---
+# Openscapes 
+
+helps research groups reimagine data analysis, develop modern skills that are of immediate value to them, 
+and cultivate collaborative and inclusive research communities.
+
+Engage • Empower • Amplify
+
+
+SEEDS slide 2
+
+https://docs.google.com/presentation/d/1Mc__4NfMlLHvChoAWnvEqUocP8JS9Ya317hHRaZhLnM/edit#slide=id.gbb069af1de_0_815
+
+Maybe Slide 3 too
+
+??
+Means so much I've moved away from doing my own research to pass forward. 
+
+Mozilla Fellowship, Openscapes, operated at NCEAS, Co-directed with Erin Robinson. 
+
+transition: 
+
+---
+Chelsea wood quote
+
+---
+class: center, middle
+background-image: url(images/horst-starwars-luke.jpg)
+background-size: contain
+
+.footnote[art: [@allison_horst](https://twitter.com/allison_horst)]
+
+???
+
+We're always going to find ourselves in situations where we don't have the skillsets to solve the challenges we face. 
+
+---
+Yoda
+
+But there are powerful approaches around us, as powerful as the force. This is open science. There are mentors around us that can help, and although it's real work to upskill, we can become confident in the skills we need
+
+---
+team
+
+and become part of a team. We all do science, so we all are on many teams of different scales. The most clear is our own lab, then the open source community 
+
+---
+# OHI + Openscapes
+
+??
+
+So I'd like to talk about 2 examples 
+
+---
+# Open Science
+
+“A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding” Ramachandran et al. 2021
+
+Images: #rstats
+
+???
+
+A definition of open science that really resonates with us is that it is “A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding”. 
+
+---
+## Open science as a movement
+
+Open science is a movement that will help you do BSILT. 
+GOTV. 
+
+Daily benefit that then you can pass forward. 
+
+DEI is a huge part of this.
+
+SORTEE GSlide 7: https://docs.google.com/presentation/d/1HGw4P095-lblHiGQHXYidHiVysjrPxuojxTxKtE13vk/edit#slide=id.gddac11ba17_0_174
+
+Co-create, less re-inventing. more inclusion and belonging.
+
+
+---
+# OHI and Openscapes logos
+
+
+???
+I'll tell you about 2 examples: teams. 
+
+You engage with this movement through teams.
+
+
+Open science is a movement that will help you do better science in less time, and it's something that all ecologists can be a part of
+
+(And while these days, we both feel like working as data scientists and teachers in R is a wonderfully supportive, collaborative, and inspiring space to work. But we didn’t always feel like this. )
+
+
+
+---
+# (Feedback loop?)
+
+
+
+---
+# SEEDS OHI slides
+
+7-9: https://docs.google.com/presentation/d/1Mc__4NfMlLHvChoAWnvEqUocP8JS9Ya317hHRaZhLnM/edit#slide=id.g7a1c47daec_1_2009
+
+
+---
+# BSILT feedback:
+
+we're not a team. Chelsea quote? I didn't realize there was a problem
+
+---
+# DEI is a huge part of this. 
+
+---
+# Champions illustration
+
+Focus is on helping researchers find their teams and communities. Explore and navigate
+Join the open science movement
+
+Not just about tools, DEI
+
+---
+# Main message: open, reproducible, inclusive practices
+
+## 2 sub-messages
+collab coding: less reinventing 
+collab comms: streamline onboarding
+
+All Together Now: more co-creation, reimagine science.
+
+---
+# Sub-message #1: 
+Code collaboratively (for future us?)
+
+
+---
+# Ex with ohicore (OHI hex)
+several slides
+
+
+---
+class: middle
+.pull-left[
+```{r pinskylab, out.width = '100%'}
+knitr::include_graphics("images/github-pinskylab-how_we_work.png")
+```
+.footnote[github: [@pinskylab](https://github.com/pinskylab)]
+
+]
+
+.pull-right[
+```{r froehlich-lab, out.width = '100%'}
+knitr::include_graphics("images/github-froehlichlab-anti-racism.png")
+```
+
+
+.footnote[
+github: [@froehlich-lab](https://github.com/Froehlich-Lab/anti-racism)
+]
+]
+
+
+---
+class: inverse, center, middle
+## It’s like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety.
+
+**Jenny Bryan & Jim Hester, [What They Forgot to Teach You About R](https://rstats.wtf/)**
+
+
+
+
+---
+# Submessage #2
+Communicate collaboratively (for future us)
+
+RMarkdown. (7 min)
+
+---
+Rmd also helped us teach and iterate
+
+- OHI training modeled after Carpentries' structure, but to onboard people to our workflow. 
+- this is now an incubator at the Carpentries and was part of the foundation for
+- R for Excel taught at RSTudio Conf
+Allowed us to give back 
+
+---
+Champion example: Gavin Fay
+
+---
+NASA too. 
+
+- introduce another layer: Mentors cohort
+
+new 
+
+---
+Kinder science
+
+---
+# How you get involved 
+
+- start talkign about data
+- identify and address shared needs
+- think ahead for future us. 
+
+---
+# Twitter 
+
+https://openscapes.github.io/slides/betterscience/environment-canada#19
+
+---
+name: goodbye
+class: bottom
+background-image: url("images/fam.png")
+background-size: 40%
+background-position: 1% 99%
+
+.pull-left[
+### Our extended family:
++ Garrick Aden-Buie,
++ Carson Sievert,
++ Charles Teague,
++ Hadley Wickham, 
++ JJ Allaire, and
++ Rich Iannone.
+
+*All illustrations by [Allison Horst](https://www.allisonhorst.com/).*
+]
+
+
+.pull-right[
+.right[
+
+<img src="images/rmd-hex.png" width="150px">
+
+# Thank you!
+
+### Find us elsewhere at...
+
+[`r fontawesome::fa("link")` rmarkdown.rstudio.com](https://rmarkdown.rstudio.com)  
+[`r fontawesome::fa("stroopwafel")` rmarkdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)  
+[`r fontawesome::fa("blog")` blog.rstudio.com](https://blog.rstudio.com/categories/r-markdown/)  
+[`r fontawesome::fa("box-open")` pkgs.rstudio.com](https://pkgs.rstudio.com/)  
+[`r fontawesome::fa("youtube")` youtube](https://youtube.com/playlist?list=PL9HYL-VRX0oTZhAhlLb8r6DI04KY46RJW) 
+]
+]
+
+---
+# CUTTING ROOM
+
+---
+# Open Science
+
+“A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding” Ramachandran et al. 2021
+
+???
+
+A definition of open science that really resonates with us is that it is “A collaborative culture enabled by technology that empowers the open sharing of data, information and knowledge within the scientific community and the wider public to accelerate scientific research and understanding”. 
+
+---
+# Open Data Science
+
+Images: #rstats
+
+Data science is an entryway to open science: turn open science from an idea to a daily benefit
+
+???
+
+For me it was really the R community that introduced and welcomed me to open science. These groups helped me feel welcome and included and helped me see that data science is an entryway to open science from an idea to a daily benefit
+
+science as a movement that we could be a part of and that was a daily benefit to our work
+
+. ENTRYWAY.
+Many entryways to open science: I've seen data science as a criticaly entryway that meets researchers' immediate needs
+
+So how do you do that? through teams.
+
 
 
