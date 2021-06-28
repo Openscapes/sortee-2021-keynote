@@ -10,7 +10,7 @@ output:
     chakra: libs/remark-latest.js # with @bjungbogati tidyverse dev toulouse: need to save this file to knit offline!
     lib_dir: libs 
     nature:
-      slideNumberFormat: "" # comment out to disable
+      #slideNumberFormat: "" # comment out to disable
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -55,48 +55,112 @@ class: title-slide, right, bottom
 Thank you so much. I'm really excited to be here today to talk about Openscapes: Better Science for Future Us
 
 
-Transition: the motivation for all my work now is that default approaches to data-intensive research feel like this. 
+Transition: The idea of Better Science for Future Us motivates all of now, so much so that I've moved away from doing my own research and co-direct Openscapes to help other researchers do open, inslusive ...
+
+Better Science for Future Us is about science that is more reproducible, open, and efficient, and also collaborative, inclusive, and kind, and where all these principles are part of our daily practice of science. These ideas have been so transformational for me as a researcher that I actually have moved away from doing my own research so I can help empower other researchers doing data-intensive science. 
+
+transition: And this is important because default approaches to data-intensive research feel like this. 
 
 ---
----
-Luke
+name: luke
+class: top
+background-image: url(images/horst-starwars-luke.jpg)
+background-size: contain
+
+.footnote[art: [@allison_horst](https://twitter.com/allison_horst)]
 
 ???
 
-Like luke, staring at chanllenges we can't solve with the skillsets we have. And the thing is, we can't solve this in a good way on our own. No matter what kinds of workarounds we might design to solve this problem, it's not going to be enough to meaningingfulyly contribute in a way that we can continue to learn from and repeat. 
+This is Luke Skywalker when he crashed his plane into the swamp of Dagobah, and he is staring at a challenge he can’t solve with the skillsets he has. I felt demoralized like this as a graduate student when I was first learning how to code, and then again with my research team as we were struggling to code together. I felt like this in big ways like overhauling the workflows that I’d developed over my whole career and small ways like missing a parentheses or trying to distinguish between 10 files with names ending in final_final and final_final_final. I constantly felt that I was alone, behind, and that it was too late to catch up.
+
+ Luckily, this isn’t the end of Luke’s story, because as we know –
+
+CUT: 
+(nasem): But the current default approaches to data analysis are closed and individual and demoralizing. Like Luke Skywalker here, most researchers cannot solve the the challenges in front of us with the skillsets we have because we are never trained. Instead, we are self-taught using the same closed tools that the self-taught researchers before us did, and these closed tools perpetuate closed mindsets and apprehension about participating in open science.
+
+[transition] But it doesn’t have to be this way.
+
+
+Like luke, staring at challenges we can't solve with the skillsets we have. And the thing is, we can't solve this in a good way on our own. No matter what kinds of workarounds we might design to solve this problem, it's not going to be enough to meaningingfulyly contribute in a way that we can continue to learn from and repeat. 
+
 
 ---
-Yoda
+class: top, center
+```{r yoda, out.width = '88%'}
+knitr::include_graphics("images/horst-starwars-yoda.jpg") 
+```
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
 
 ???
+
+Luke meets Yoda. And Yoda uses the Force to solve Luke’s problem in a way Luke never imagined was possible. The Force is going to open up Luke's whole world because it will solve his current challenge and also broaden his mindset to what is possible in the future. For me, the Force is open science. And I’ve met many Yodas in the R and open science communities who supported me as a new learner and helped me feel like I wasn’t alone and that it wasn’t too late. My Yodas were people I met at my very first open science event. which was an rOpenSci unconference. They were RLadies who role modeled how support women and promote gender diversity in the R community, and folks from RStudio who were patient with my questions as I tried to understand how RMarkdown could be used not only for reproducibility but for communicating science beyond my wildest dreams.
+
+CUT::
+
+(nasem): Open data science approaches are open, collaborative, & empowering – to me it’s like the Force. Open data science enables us to solve challenges in ways we never would have imagined was possible. But it doesn’t just solve the challenges in front of us, it will also broaden our mindsets for the scope and scale of the research questions we can tackle. 
+
 
 Luckily, don't have to. Because open science is something as powerful as the force that we can learn and participate in. It's something we could never imagine on our own, or design on our own, and nor should we. We have other responsibilities and this is something we can learn and be a part of 
 
 ---
-Team
+class: center, middle
+background-image: url(images/horst-starwars-hands.jpg)  
+background-size: contain
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
 
 ???
+
+The R and open science communities helped me work more reproducibly and collaborate better with my research team. But they also taught me that there are teams all around me. Learning modern tools for data analysis and becoming part of the open science movement has made me completely reimagine how I define teams. I used to think that collaborators were limited to people working on a specific project with me. But now I think of collaborators as people who enrich my work through the packages they develop or the teaching resources they share. I again think in terms of of Star Wars, where teams were powerful because they were diversity in terms of backgrounds and expertise, and everyone contributed in really critical ways towards a shared vision.
+
+
+CUT::
+
+(nasem): And this open community is powerful because it is diverse and inclusive. Feeling included in this open community has been game-changing for my science, and my life.   So let me tell you a bit more about this and how I am now focused on training and mentoring researchers with open data science. 
 
 And being a part of is key. This is not something you do alone. 
 
 Focus on Future Us. Research teams still don’t know how to work as teams. 
 
 ---
-Champions illustration
+# Rey
 
 ???
-helping find their teams, identify their trailhead, find the force. mixing metaphors here a bit but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
+
+Learning from communities and figuring out how to work collaboratively with my many teams put me on a new path that has made me feel so empowered and less alone for my data analysis. And I wanted all researchers to feel like this too, and to pass forward what I’ve learned – 
+
+---
+# Champions illustration mit logo
+
+???
+
+This idea of finding your teams and feeling less alone with data analysis is the central idea for Openscapes. 
+
+dentify their trailhead, find the force. abruptly transitioning metaphors here but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
 
 Vision: Providing people an opportunity to see that it can be different. Ripple out. True culture change. 
 
 ---
-OHI+Openscapes
+# Why is this important
+
+# open science tooling & practices along with promoting DEI help us ask better questions
+
+## And when we ask better questions and work together, we can find more inclusive solutions faster 
+
+---
+# OHI+Openscapes
 
 ???
 
 Openscapes comes from my personal personal story as a researcher through the OHI and how through that I saw a bigger pattern that needed to be solved. And this is the 10 year anniversary of OHI so it's a good time to reflect on that as origins for Openscapes. 
 
 ---
+exclude: TRUE
 Lessons learned: 
 
 - default approaches to science aren't reproducible, efficient, or inclusive
@@ -115,9 +179,9 @@ I was turned into a Champion for open science because it transformed the way I w
 
 
 ---
-OHI intro
+# OHI intro
 
-used open data from the start. combining ~100 open data sets. but our code and analysis was closed.
+research + training
 
 ???
 
@@ -125,15 +189,30 @@ My job with OHI for 6+ years was to contribute to our annual global assessment a
 
 OHI informed how I work with people around data. I needed to fundamentally do my work in a diff way. I saw that other teams were having that same trouble. Seeing that others need that too. That’s what Openscapes is. 
 
----
+(used open data from the start. combining ~100 open data sets. but our code and analysis was closed.)
 
 ---
-class: top, center
+background-image: url(images/bsilt-fig1-nature-whiteout.jpg)
+background-position: 90% 50%
+background-size: 50%
+
+
+## Our path to better science in less time
+
+???
+
+We learned the hard way we couldn’t reproduce our own work
+But not just about reproducibility – 
+Difficult to iterate or build from our own work (so much reinventing!)
+Difficult to onboard new people and offboard (so much knowledge lost when people leave)
+
+
+---
 background-image: url(images/lowndes-2017-betterscience-table1.png)
 background-position: 50% 90%
 background-size: 95%
 
-## OHI Team Pathway
+## Our Pathway
 
 ???
 
@@ -180,10 +259,7 @@ knitr::include_graphics("images/ohi-gh-org-name.png")
 ```{r gdrive, out.width = '60%', fig.align='center'}
 knitr::include_graphics("images/ohi-gdrive.png")
 ```
-
-
 ]
-
 
 ???
 
@@ -193,29 +269,15 @@ Michelle Fishbowl Chat.
 GitHub Clinics.
 
 ---
-class: top, center
-## Create place: where to put shared things
+## Build trust, confidence, skills
 
 <br>
 
-.pull-left[
-### GitHub Organization
 
-```{r ohi-gh-org2, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/ohi-gh-org-name.png")
-```
-
-
-*<https://github.com/ohi-science>*
-]
-
-
-.pull-right[
-### Build trust, confidence, skills
 ```{r, eval=FALSE, echo=TRUE}
 source("julies_script.R")
 ```
-]
+
 
 ???
 My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
@@ -447,12 +509,39 @@ Talking about data helped us become leaders ourselves. Beyond less reinventing, 
 ---
 # Better science for future us
 
+Summarize: this is what better science for future us can look like. 
+
+But also learned a lot since then. New tools, new collaborations, new tech. Also about systemic racism decolonizing science. Erin Robinson.
+
 ???
 
 Pause and speak to this idea of future us. This is the idea that everything we do we should be thinking about efficiency onwards. MORE.
 
 ---
-Openscapes. Zoom faces? Tweets?
+# The overwhelm is real. 
+
+Sad animals, Luke?
+
+???
+
+This paper is 4 years old still resonates. Shows what's possible. 
+Still, The overwhelm is real. People say they aren't part of a team. 
+
+Overwhelming for students, overwhelming for new PIs. There is something unique about the current generation of new PIs...
+
+
+???
+The basics: starting to transition your group into open science 
+I need to do ML but I don’t know how to code. 
+I need to make bread, don’t have flour
+Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
+Overwhelm we hold for the PIs. it doesn’t have to be just you. Future Us. 
+
+---
+# Openscapes. Zoom faces?
+
+Cohort calls to normalize talking about data: teaching+discussion. 
+They then have seaside chats. Cool to see them turn into lab hackatons, co-working sessions, places to teach.
 
 ???
 
@@ -461,40 +550,27 @@ that's key elements for Openscapes. Center DEI. help people think about Future U
 Providing people an opportunity to see that it can be different. Ripple out. 
 
 ---
-Impact from Openscapes
+# Pathway example
 
----
-Ripple out from Openscapes GH clinic for their boss. 
-Artwork 
-
----
-(All we can save)?
-
----
-Pathway. 
+???
 
 Through Oopenscapes we normalize talking about data. We introduce this landscapes of communities and have each team have seaside chats. PIs participate in the cohort calls to see what's possilble but aren't required to attend Seaside Chats: build up that horizontal leadership and trust. Help people find their trailheads and 
 
 ---
-# I learned reprise
+# Openscapes Champions quotes/impact
 
-I developed the champions program they're doing this.
-But luckily I didn't stop learning I learned with Aaron and Tara
-This flywheel is a way to grow and scale to truly be part of the open science movement through growth and scaling. This element here about training more mentors and building more curriculum and enabling them to build curriculum is a big part for work now. We're working with NASA to do this through the Earth data science cookbook and we're doing this also with the more foundation with protocols to bio
+Ripple out from Openscapes GH clinic for their boss. 
+Artwork 
 
+Malin recent tweet?
 
 ???
-Led 2 cohorts before meeting Erin Robinson. 
 
+Really exciting to see what they've done, now 2 years out after the original cohort
 
 ---
-# FLywheel
-Protocols and athe Cloud.
-The basics: starting to transition your group into open science 
-I need to do ML but I don’t know how to code. 
-I need to make bread, don’t have flour
-Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
-Overwhelm we hold for the PIs. it doesn’t have to be just you. Future Us. 
+# Flywheel & Erin
+
 
 ---
 # Cookbook
@@ -504,11 +580,32 @@ Movement. Communities. Seeing what’s possible. Their role in my OHI journey, p
 Openscapes’ role
 Contributing to that movement. 
  
+
+
+---
+exclude: TRUE
+# I learned reprise
+
+I developed the champions program they're doing this.
+But luckily I didn't stop learning I learned with Aaron and Tara
+This flywheel is a way to grow and scale to truly be part of the open science movement through growth and scaling. This element here about training more mentors and building more curriculum and enabling them to build curriculum is a big part for work now. We're working with NASA to do this through the Earth data science cookbook and we're doing this also with the more foundation with protocols to bio
+
+???
+Led 2 cohorts before meeting Erin Robinson. 
+
+---
+
+Protocols and athe Cloud.
+The basics: starting to transition your group into open science 
+I need to do ML but I don’t know how to code. 
+I need to make bread, don’t have flour
+Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
+Overwhelm we hold for the PIs. it doesn’t have to be just you. Future Us. 
+
 ---
 **Main things: Teams. Kinder science.** 
 
 The holes I spotted. Invested in the curriculum. 
-
 
 Champions are supporting teams that are interested in making this big investment in 
 Good stories: Gavin, Allison
