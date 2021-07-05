@@ -23,8 +23,6 @@ output:
 # http://arm.rbind.io/slides/xaringan.html#45: presenter mode:: press c then f then p
 # https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd      
 
-# TODO::::: replace ESIP loop for the "team traits" slides
-
 ---
 
 ```{r setup, include=FALSE}
@@ -38,14 +36,13 @@ library(xaringan)
 
 class: title-slide, right, bottom
 
-
-
 ## `r rmarkdown::metadata$title`
 ### `r rmarkdown::metadata$author`
 ### `r rmarkdown::metadata$institute`
 
-[@juliesquid](https://twitter.com/juliesquid)  
-[openscapes.org/media](http://openscapes.org/media)  
+Twitter: [@juliesquid](https://twitter.com/juliesquid)  
+Slides: [openscapes.org/media](http://openscapes.org/media)  
+All Artwork by [Allison Horst](https://twitter.com/allison_horst)
 
 <img src="images/mozilla.png" alt="mozilla" style="float:right;width:154px;"/>
 <img src="images/nceas.png" alt="nceas" style="float:right;width:150px;"/>
@@ -54,12 +51,11 @@ class: title-slide, right, bottom
 
 Thank you so much. I'm really excited to be here today to talk about Openscapes: Better Science for Future Us
 
+Better science is science that is more open and reproducible, it's more diverse, equitable, inclusive, and just, and it is for Future Us: the ideas of our teams, etc. Esp important in environmental science  
 
-Transition: The idea of Better Science for Future Us motivates all of now, so much so that I've moved away from doing my own research and co-direct Openscapes to help other researchers do open, inslusive ...
+Better science for Future Us is about spending less time reinventing and more time collaborating and co-creating, and 
 
-Better Science for Future Us is about science that is more reproducible, open, and efficient, and also collaborative, inclusive, and kind, and where all these principles are part of our daily practice of science. These ideas have been so transformational for me as a researcher that I actually have moved away from doing my own research so I can help empower other researchers doing data-intensive science. 
-
-transition: And this is important because default approaches to data-intensive research feel like this. 
+transition: it's particularly important for us in  data-intensive science,  because default approaches to data-intensive research feel like this. 
 
 ---
 name: luke
@@ -71,18 +67,9 @@ background-size: contain
 
 ???
 
-This is Luke Skywalker when he crashed his plane into the swamp of Dagobah, and he is staring at a challenge he can’t solve with the skillsets he has. I felt demoralized like this as a graduate student when I was first learning how to code, and then again with my research team as we were struggling to code together. I felt like this in big ways like overhauling the workflows that I’d developed over my whole career and small ways like missing a parentheses or trying to distinguish between 10 files with names ending in final_final and final_final_final. I constantly felt that I was alone, behind, and that it was too late to catch up.
+Data-intensive science can be super lonely and demoralizing. Like Luke Skywalker here, we’ve all had moments where we are staring at a challenge that we can’t solve with the skillsets we have. As a marine ecologist I felt demoralized like this when I was a graduate student first learning how to code, and then again with my research team as we were struggling to collaborate with code. This slows us down and slows down our science, as we feel more and more alone, behind, and like it’s too late to catch up.
 
- Luckily, this isn’t the end of Luke’s story, because as we know –
-
-CUT: 
-(nasem): But the current default approaches to data analysis are closed and individual and demoralizing. Like Luke Skywalker here, most researchers cannot solve the the challenges in front of us with the skillsets we have because we are never trained. Instead, we are self-taught using the same closed tools that the self-taught researchers before us did, and these closed tools perpetuate closed mindsets and apprehension about participating in open science.
-
-[transition] But it doesn’t have to be this way.
-
-
-Like luke, staring at challenges we can't solve with the skillsets we have. And the thing is, we can't solve this in a good way on our own. No matter what kinds of workarounds we might design to solve this problem, it's not going to be enough to meaningingfulyly contribute in a way that we can continue to learn from and repeat. 
-
+But it doesn’t have to be like this –
 
 ---
 class: top, center
@@ -90,92 +77,135 @@ class: top, center
 knitr::include_graphics("images/horst-starwars-yoda.jpg") 
 ```
 
-.footnote[
-art: [@allison_horst](https://twitter.com/allison_horst)
-]
 
 ???
 
-Luke meets Yoda. And Yoda uses the Force to solve Luke’s problem in a way Luke never imagined was possible. The Force is going to open up Luke's whole world because it will solve his current challenge and also broaden his mindset to what is possible in the future. For me, the Force is open science. And I’ve met many Yodas in the R and open science communities who supported me as a new learner and helped me feel like I wasn’t alone and that it wasn’t too late. My Yodas were people I met at my very first open science event. which was an rOpenSci unconference. They were RLadies who role modeled how support women and promote gender diversity in the R community, and folks from RStudio who were patient with my questions as I tried to understand how RMarkdown could be used not only for reproducibility but for communicating science beyond my wildest dreams.
+Open science is collaborative and empowering – it’s like the Force from Star Wars. Like the Force, open science enables us to solve data challenges in ways we never would have imagined was possible. Open science is something we can see and learn and become confident with, and it doesn’t just help us get unstuck from the current challenge in front of us, it also broadens our mindsets for the scope and scale of the research questions we can tackle. I felt the power of open science first through the R community who supported me as a new learner and helped me feel like I wasn’t alone and that it wasn’t too late.
 
-CUT::
-
-(nasem): Open data science approaches are open, collaborative, & empowering – to me it’s like the Force. Open data science enables us to solve challenges in ways we never would have imagined was possible. But it doesn’t just solve the challenges in front of us, it will also broaden our mindsets for the scope and scale of the research questions we can tackle. 
-
-
-Luckily, don't have to. Because open science is something as powerful as the force that we can learn and participate in. It's something we could never imagine on our own, or design on our own, and nor should we. We have other responsibilities and this is something we can learn and be a part of 
 
 ---
 class: center, middle
 background-image: url(images/horst-starwars-hands.jpg)  
 background-size: contain
 
-.footnote[
-art: [@allison_horst](https://twitter.com/allison_horst)
-]
 
 ???
 
-The R and open science communities helped me work more reproducibly and collaborate better with my research team. But they also taught me that there are teams all around me. Learning modern tools for data analysis and becoming part of the open science movement has made me completely reimagine how I define teams. I used to think that collaborators were limited to people working on a specific project with me. But now I think of collaborators as people who enrich my work through the packages they develop or the teaching resources they share. I again think in terms of of Star Wars, where teams were powerful because they were diversity in terms of backgrounds and expertise, and everyone contributed in really critical ways towards a shared vision.
+And so like the Force, open science is something that brings us together. Diverse, inclusive teams and communities are key here, so that we can learn from each other’s expertise and experiences and work together to address pressing issues like climate change and climate justice that none of us can do alone. 
 
+So these ideas of data science, open science, and teamwork are the key motivators of Openscapes. 
 
-CUT::
-
-(nasem): And this open community is powerful because it is diverse and inclusive. Feeling included in this open community has been game-changing for my science, and my life.   So let me tell you a bit more about this and how I am now focused on training and mentoring researchers with open data science. 
-
-And being a part of is key. This is not something you do alone. 
-
-Focus on Future Us. Research teams still don’t know how to work as teams. 
+And when we’re not thinking of open science like the Force –
 
 ---
-# Rey
+class: center, middle
+background-image: url(images/horst-champions-landscape-wtext.png)  
+background-size: contain
 
 ???
 
-Learning from communities and figuring out how to work collaboratively with my many teams put me on a new path that has made me feel so empowered and less alone for my data analysis. And I wanted all researchers to feel like this too, and to pass forward what I’ve learned – 
+We think about open science like a landscape. Our flagship program is Openscapes Champions, which is an open data science mentorship program for teams. We help researchers move from sad and lonely science like the animals on the bottom left to team science as they identify their common needs and start navigating the landscape together with a cohort of their peers. We help them orient to existing pathways in the landscape created by open science communities, and we also build new trails when there is a need. 
 
----
-# Champions illustration mit logo
+Transition: So feeling included in open science is a big part of Openscapes
 
-???
+<!---We’ve now mentored 5 Cohorts with 34 environmental research teams since we started in 2018 –
 
 This idea of finding your teams and feeling less alone with data analysis is the central idea for Openscapes. 
 
-dentify their trailhead, find the force. abruptly transitioning metaphors here but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
+identify their trailhead, find the force. abruptly transitioning metaphors here but the idea is to move from the sad lonely research on the bottom left to finding teams and trailheads and navigating the open data science landscape safely. Not a scary, inaccessible, or inhospitable landscape.
 
-Vision: Providing people an opportunity to see that it can be different. Ripple out. True culture change. 
+Vision: Providing people an opportunity to see that it can be different. Ripple out. True culture change.  --->
 
 ---
-# Why is this important
+class: center, middle
+background-image: url(images/horst-eco-r4ds.png)  
+background-size: contain
 
-# open science tooling & practices along with promoting DEI help us ask better questions
+Julie: And another part is helping teams see open science and data science as part of their daily workflow. This means recognizing and expecting that tooling and practices already exist and are available to them to make their analytical life more efficient, resilient, and also enjoyable.
 
-## And when we ask better questions and work together, we can find more inclusive solutions faster 
+---
+# Better Science for Future Us
+
+open science tooling & practices along with promoting DEI help us ask better questions
+
+And when we ask better questions and work together, we can find more inclusive solutions faster 
+
+## Less lonely science
+## Less reinventing
+## Learn from the community
+## Practice as a team
 
 ---
 # OHI+Openscapes
 
 ???
 
-Openscapes comes from my personal personal story as a researcher through the OHI and how through that I saw a bigger pattern that needed to be solved. And this is the 10 year anniversary of OHI so it's a good time to reflect on that as origins for Openscapes. 
+So I want to step back for a second, because a lot of the focus of Openscapes was what I learned through doing collaborative data-intensive research with my team through the Ocean Health Index. 
+
+I’ve worked with the Ocean Health Index since 2013 and there is a lot to say about it that I won't get into today. What’s relevant here is that we combine and model lots of data, we repeat our analyses every year, and we do it as a team. And, because we are a team of marine ecologists, we all came with varying levels of self-taught analytical experience. 
+
+So we found out the hard way that our default approaches for 
+data analysis were not reproducible by even ourselves.
+
+Getting through this involved quite a reckoning, but when we got through it, we knew we had a story to tell.
 
 ---
-exclude: TRUE
-Lessons learned: 
+class: middle, center
+```{r nature-bsilt, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/nature-screenshot-title.png")
+```
 
-- default approaches to science aren't reproducible, efficient, or inclusive
-- code openly & teach through the R community
-- practice open science through the OHI
-- be an open leader through Mozilla
-
-<!---And I'm still learning
-I learned how to flywheel with Erin Robinson
-I learned how to be braver with Tara Robertson ---->
+.footnote[
+source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160); web: [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime/)
+]
 
 ???
-How can I combine these things and what I learned into a program that could accelerate teams doing open science and data science with community
 
-I was turned into a Champion for open science because it transformed the way I work and the way I think. I wanted to pass this forward. Through the Champions program. 
+Figuring out was a big enough deal that we published this in Nature Ecology & Evolution. 
+What made it unique: we shared our struggles, and described the transition
+
+---
+background-image: url(images/bsilt-fig1-simple.png)
+background-position: 10% 60%
+background-size: 45%
+
+## More reproducibility & collaboration, less time
+
+
+.pull-right[
+### We learned the hard way we couldn’t reproduce our work
+
+**So much time lost and effort wasted:**
+
+- Difficult to iterate or build from our own work (so much reinventing!)
+- Difficult to onboard & offboard team members (so many undoc'd steps & knowledge lost)
+
+**Reproducibility is also about *co-developing* analyses**
+
+<!---
+
+- **Required new skillsets & mindsets**
+
+- **Possible because of trust, teamwork, & leadership**
+
+--->
+]
+.footnote[
+[*Lowndes et al. 2017* Our path  to better science in less time using open data science tools](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+This fig shows that as we repeated our analyses each year, they were easier to reproduce and it was easier to collaborate, and it took less time each year. We introduced open data science tools and practices iteratively, first focused on repeatability, then collaboration, and now we're focused on training.
+
+
+---
+# BSILT feedback:
+
+we're not a team. 
+
+???
+Chelsea quote? I didn't realize there was a problem
 
 
 ---
@@ -460,7 +490,6 @@ knitr::include_graphics("images/ohi-team-2018b-crop.jpeg")
 ```
 
 ---
-exclude: TRUE
 class: top, center
 ## Think ahead for Future Us 
 
@@ -476,7 +505,7 @@ knitr::include_graphics("images/rstudio-visual-editor.png")
 
 
 .pull-right[
-### Slides with R: `xaringan`
+### RMarkdown
 ```{r xaringan, out.width = '90%', fig.align='center'}
 knitr::include_graphics("images/xaringan-flipook-evamaerey.png")
 ```
@@ -579,7 +608,6 @@ Really exciting to see what they've done, now 2 years out after the original coh
 Movement. Communities. Seeing what’s possible. Their role in my OHI journey, passing that forward. Educational and GH clinics, Efficiency Tips
 Openscapes’ role
 Contributing to that movement. 
- 
 
 
 ---
@@ -744,17 +772,6 @@ Open science is a movement that will help you do better science in less time, an
 
 
 ---
-# SEEDS OHI slides
-
-7-9: https://docs.google.com/presentation/d/1Mc__4NfMlLHvChoAWnvEqUocP8JS9Ya317hHRaZhLnM/edit#slide=id.g7a1c47daec_1_2009
-
-
----
-# BSILT feedback:
-
-we're not a team. Chelsea quote? I didn't realize there was a problem
-
----
 # DEI is a huge part of this. 
 
 ---
@@ -855,12 +872,6 @@ Kinder science
 https://openscapes.github.io/slides/betterscience/environment-canada#19
 
 ---
-name: goodbye
-class: bottom
-background-image: url("images/fam.png")
-background-size: 40%
-background-position: 1% 99%
-
 .pull-left[
 ### Our extended family:
 + Garrick Aden-Buie,
@@ -921,5 +932,22 @@ Many entryways to open science: I've seen data science as a criticaly entryway t
 
 So how do you do that? through teams.
 
+---
+exclude: TRUE
+Lessons learned: 
+
+- default approaches to science aren't reproducible, efficient, or inclusive
+- code openly & teach through the R community
+- practice open science through the OHI
+- be an open leader through Mozilla
+
+<!---And I'm still learning
+I learned how to flywheel with Erin Robinson
+I learned how to be braver with Tara Robertson ---->
+
+???
+How can I combine these things and what I learned into a program that could accelerate teams doing open science and data science with community
+
+I was turned into a Champion for open science because it transformed the way I work and the way I think. I wanted to pass this forward. Through the Champions program. 
 
 
