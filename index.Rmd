@@ -198,43 +198,86 @@ background-size: 45%
 
 This fig shows that as we repeated our analyses each year, they were easier to reproduce and it was easier to collaborate, and it took less time each year. We introduced open data science tools and practices iteratively, first focused on repeatability, then collaboration, and now we're focused on training.
 
-
 ---
-# BSILT feedback:
+## DIFF We worked openly within our team
 
-we're not a team. 
+```{r workflow-full-wtext, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/workflow-full-wtext.png")
+```
 
-???
-Chelsea quote? I didn't realize there was a problem
-
-
----
-# OHI intro
-
-research + training
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
 
 ???
 
-My job with OHI for 6+ years was to contribute to our annual global assessment and lead the OHI+ program to help other teams use our science. An opportunity for me to learn closely doing research with my team and then turn around and help other teams
-
-OHI informed how I work with people around data. I needed to fundamentally do my work in a diff way. I saw that other teams were having that same trouble. Seeing that others need that too. That’s what Openscapes is. 
-
-(used open data from the start. combining ~100 open data sets. but our code and analysis was closed.)
+We focused on tools and shared practices that enabled us to work better together. 
 
 ---
-background-image: url(images/bsilt-fig1-nature-whiteout.jpg)
-background-position: 90% 50%
-background-size: 50%
+## RStudio for R, text editing, Github sync, & more
+```{r workflow-ex-repro-wtext, out.width = '100%'}
+knitr::include_graphics("images/workflow-ex-repro-wtext.png")
+```
 
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
 
-## Our path to better science in less time
+---
+## RMarkdown: reproducible, updatable reports
+
+```{r rmd-openpubfest, out.width = '100%'}
+knitr::include_graphics("images/rmd-openpubfest.png")
+```
+
+.footnote[
+source: [Lowndes & Tierney 2020, Open Pub Fest](https://docs.google.com/presentation/d/1Jv0akRHEnjG_4t_9P7t93682BCBJskYnRu_7EnaeDQI/edit?usp=sharing)
+]
 
 ???
 
-We learned the hard way we couldn’t reproduce our own work
-But not just about reproducibility – 
-Difficult to iterate or build from our own work (so much reinventing!)
-Difficult to onboard new people and offboard (so much knowledge lost when people leave)
+Maybe more like slide 4 from betterscienceinlesstime slides: https://docs.google.com/presentation/d/1GmuTa1sUO_boH-2TonC875pD5xvXaIMHRKIoO3vUrdY/edit#slide=id.gc4214d5e6c_0_695
+
+
+---
+## Github for discussion & project mgmt
+```{r workflow-ex-collab2-wtext, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/workflow-ex-collab2-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+---
+## RMarkdown: reimagining communication
+```{r workflow-ex-comm-wtext, out.width = '100%'}
+knitr::include_graphics("images/workflow-ex-comm-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+???
+
+---
+## R for dashboards & stakeholder engagement
+
+```{r shiny-ne, out.width = '90%', fig.align='center'}
+knitr::include_graphics("images/jafflerbach-shiny-ne.png") 
+```
+
+.footnote[
+dashboard (Shiny): [@jafflerbach](https://twitter.com/jafflerbach). 
+inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) 
+]
+
+???
+
+And when we are working closely with partners who are engaged with data analysis decisions, we have been able to create dashboards as well. 
+
+This all truly transformed the way that we work and think about science. 
 
 
 ---
@@ -246,7 +289,26 @@ background-size: 95%
 
 ???
 
+Even summararized these paths; 
+
 We shared our story here about the tools. Table 1. I want to talk more about the behind-the-scenes, what we didn't describe in the paper but what is key to making this all happen. 
+
+But some of the feedback I got was: 
+
+---
+
+## "But I work alone. I'm not part of a team."
+
+## "But I don't work with big data"
+
+##"But I don't have time"
+
+???
+
+---
+Chelsea quote? I didn't realize there was a problem
+
+
 
 ---
 class: top, center
