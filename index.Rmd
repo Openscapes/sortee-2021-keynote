@@ -124,6 +124,11 @@ background-size: contain
 Julie: And another part is helping teams see open science and data science as part of their daily workflow. This means recognizing and expecting that tooling and practices already exist and are available to them to make their analytical life more efficient, resilient, and also enjoyable.
 
 ---
+class: center, middle
+background-image: url(images/openscapes-impact-pangeo-slide.png)  
+background-size: contain
+
+---
 # Better Science for Future Us
 
 open science tooling & practices along with promoting DEI help us ask better questions
@@ -171,7 +176,6 @@ background-size: 45%
 
 ## More reproducibility & collaboration, less time
 
-
 .pull-right[
 ### We learned the hard way we couldn’t reproduce our work
 
@@ -198,117 +202,60 @@ background-size: 45%
 
 This fig shows that as we repeated our analyses each year, they were easier to reproduce and it was easier to collaborate, and it took less time each year. We introduced open data science tools and practices iteratively, first focused on repeatability, then collaboration, and now we're focused on training.
 
+
 ---
-## DIFF We worked openly within our team
-
-```{r workflow-full-wtext, out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/workflow-full-wtext.png")
-```
-
-.footnote[
-source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
-]
+exclude: TRUE
+# Fig 1 again 
 
 ???
 
-We focused on tools and shared practices that enabled us to work better together. 
-
----
-## RStudio for R, text editing, Github sync, & more
-```{r workflow-ex-repro-wtext, out.width = '100%'}
-knitr::include_graphics("images/workflow-ex-repro-wtext.png")
-```
-
-.footnote[
-source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
-]
-
----
-## RMarkdown: reproducible, updatable reports
-
-```{r rmd-openpubfest, out.width = '100%'}
-knitr::include_graphics("images/rmd-openpubfest.png")
-```
-
-.footnote[
-source: [Lowndes & Tierney 2020, Open Pub Fest](https://docs.google.com/presentation/d/1Jv0akRHEnjG_4t_9P7t93682BCBJskYnRu_7EnaeDQI/edit?usp=sharing)
-]
-
-???
-
-Maybe more like slide 4 from betterscienceinlesstime slides: https://docs.google.com/presentation/d/1GmuTa1sUO_boH-2TonC875pD5xvXaIMHRKIoO3vUrdY/edit#slide=id.gc4214d5e6c_0_695
-
-
----
-## Github for discussion & project mgmt
-```{r workflow-ex-collab2-wtext, out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/workflow-ex-collab2-wtext.png")
-```
-
-.footnote[
-source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
-]
-
----
-## RMarkdown: reimagining communication
-```{r workflow-ex-comm-wtext, out.width = '100%'}
-knitr::include_graphics("images/workflow-ex-comm-wtext.png")
-```
-
-.footnote[
-source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
-]
-
-???
-
----
-## R for dashboards & stakeholder engagement
-
-```{r shiny-ne, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/jafflerbach-shiny-ne.png") 
-```
-
-.footnote[
-dashboard (Shiny): [@jafflerbach](https://twitter.com/jafflerbach). 
-inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) 
-]
-
-???
-
-And when we are working closely with partners who are engaged with data analysis decisions, we have been able to create dashboards as well. 
-
-This all truly transformed the way that we work and think about science. 
+helped us think differently. with more time, could focus on new science questions. Could focus on training others
 
 
 ---
 background-image: url(images/lowndes-2017-betterscience-table1.png)
 background-position: 50% 90%
 background-size: 95%
-
-## Our Pathway
+## R and friends changed how we work
 
 ???
 
-Even summararized these paths; 
+We focused on tools and shared practices that enabled us to work better together. 
 
-We shared our story here about the tools. Table 1. I want to talk more about the behind-the-scenes, what we didn't describe in the paper but what is key to making this all happen. 
 
-But some of the feedback I got was: 
+Focused on the tools. This paper really resonates with a lot of people. But I also got feedback from early career scientists that I respect, who said: 
 
 ---
 
 ## "But I work alone. I'm not part of a team."
 
-## "But I don't work with big data"
+## "But I don't repeat my work"
 
-##"But I don't have time"
+## "But I wouldn't know where to start"
 
-???
+
+---
+There were more stories to tell, and more ways to support people. 
+
+And I realized there was a lot more I could do to make this real for people. 
+
+I started telling these stories through Openscapes, The inaugural cohort was in 2019.
+
+---
+Something about teaching: Carpentries, 
+
 
 ---
 Chelsea quote? I didn't realize there was a problem
 
+---
+Supercharge
 
+Build trust and normalize data discussions
+
+Identify and address shared needs
+
+Think ahead for Future Us
 
 ---
 class: top, center
@@ -370,10 +317,29 @@ GitHub Clinics.
 source("julies_script.R")
 ```
 
+--
+
+```{r, eval=FALSE, echo=TRUE}
+
+source("common.R")
+```
+
+--
+
+```{r, eval=FALSE, echo=TRUE}
+
+remotes::install_github("ohicore")
+```
 
 ???
 My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
 Nonetheless, saved as scripts, in a project-oriented workflow, shared via GitHub
+
+---
+# Rmd helped us iterate together and helped us communicate
+left: made with Rmd for our data preparation
+right: communicate
+
 
 ---
 class: top, center
@@ -1011,5 +977,89 @@ I learned how to be braver with Tara Robertson ---->
 How can I combine these things and what I learned into a program that could accelerate teams doing open science and data science with community
 
 I was turned into a Champion for open science because it transformed the way I work and the way I think. I wanted to pass this forward. Through the Champions program. 
+
+---
+exclude: TRUE
+## DIFF PIC RMarkdown: reproducible, updatable reports
+
+```{r rmd-openpubfest, out.width = '100%'}
+knitr::include_graphics("images/rmd-openpubfest.png")
+```
+
+.footnote[
+source: [Lowndes & Tierney 2020, Open Pub Fest](https://docs.google.com/presentation/d/1Jv0akRHEnjG_4t_9P7t93682BCBJskYnRu_7EnaeDQI/edit?usp=sharing)
+]
+
+???
+
+Maybe more like slide 4 from betterscienceinlesstime slides: https://docs.google.com/presentation/d/1GmuTa1sUO_boH-2TonC875pD5xvXaIMHRKIoO3vUrdY/edit#slide=id.gc4214d5e6c_0_695
+
+
+---
+exclude: TRUE
+## Github for discussion & project mgmt
+```{r workflow-ex-collab2-wtext, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/workflow-ex-collab2-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+---
+exclude: TRUE
+## RMarkdown: reimagining communication
+```{r workflow-ex-comm-wtext, out.width = '100%'}
+knitr::include_graphics("images/workflow-ex-comm-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+???
+
+---
+exclude: TRUE
+## R for dashboards & stakeholder engagement
+```{r shiny-ne, out.width = '90%', fig.align='center'}
+knitr::include_graphics("images/jafflerbach-shiny-ne.png") 
+```
+
+.footnote[
+dashboard (Shiny): [@jafflerbach](https://twitter.com/jafflerbach). 
+inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) 
+]
+
+???
+
+And when we are working closely with partners who are engaged with data analysis decisions, we have been able to create dashboards as well. 
+
+This all truly transformed the way that we work and think about science. 
+
+---
+exclude: TRUE
+## RStudio for R, text editing, Github sync, & more
+```{r workflow-ex-repro-wtext, out.width = '100%'}
+knitr::include_graphics("images/workflow-ex-repro-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+---
+exclude: TRUE
+# R and friends changed how we work
+
+```{r workflow-full-wtext, out.width = '100%', fig.align='center'}
+knitr::include_graphics("images/workflow-full-wtext.png")
+```
+
+.footnote[
+source: [OHI slides — WHOI](https://drive.google.com/open?id=1SHvJbBWrGVqzjAPos1jbtxSn_2DAl44JmDgY5v2NxC8)
+]
+
+???
 
 
