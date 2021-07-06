@@ -49,11 +49,14 @@ All Artwork by [Allison Horst](https://twitter.com/allison_horst)
 
 ???
 
-Thank you so much. I'm really excited to be here today to talk about Openscapes: Better Science for Future Us
+Thank you so much. I want to start off by honoring the land where I am. As an ecologist, the land and water is part of my life's work and I want to honor the Chumash peoples who have been and continue to be stewards of the lands and waters where I am here in Santa Barbara, California. So thank you. 
 
-Better science is science that is more open and reproducible, it's more diverse, equitable, inclusive, and just, and it is for Future Us: the ideas of our teams, etc. Esp important in environmental science  
+I'm really excited to be here today to talk about Openscapes: Better Science for Future Us
 
-Better science for Future Us is about spending less time reinventing and more time collaborating and co-creating, and 
+Better science is science that is more open and reproducible, it's more diverse, equitable, inclusive, and just, and it is for Future Us: the ideas of our teams, and communities, and who will be joining and continuing our work, whether that is next week or next century. Future Us is an important mindset for science and society at large, and particularly important in environmental science.  
+
+<!---
+Better science for Future Us is about spending less time reinventing and more time collaborating and co-creating, and --->
 
 transition: it's particularly important for us in  data-intensive science,  because default approaches to data-intensive research feel like this. 
 
@@ -63,11 +66,9 @@ class: top
 background-image: url(images/horst-starwars-luke.jpg)
 background-size: contain
 
-.footnote[art: [@allison_horst](https://twitter.com/allison_horst)]
-
 ???
 
-Data-intensive science can be super lonely and demoralizing. Like Luke Skywalker here, we’ve all had moments where we are staring at a challenge that we can’t solve with the skillsets we have. As a marine ecologist I felt demoralized like this when I was a graduate student first learning how to code, and then again with my research team as we were struggling to collaborate with code. This slows us down and slows down our science, as we feel more and more alone, behind, and like it’s too late to catch up.
+Data-intensive science can be super lonely and demoralizing. Like Luke Skywalker here, we’ve all had moments where we are staring at a challenge that we can’t solve with the skillsets we have and we can't solve it alone. As a marine ecologist I felt demoralized like this when I was a graduate student first learning how to code, and then again with my research team as we were struggling to collaborate with code. Being unprepared to work responsibly with data and to work collaboratively slows us down and slows our science down, and slows our solutions down. And it's really a negative feedback loop where we feel more and more alone, behind, and like it’s too late to catch up.
 
 But it doesn’t have to be like this –
 
@@ -80,7 +81,7 @@ knitr::include_graphics("images/horst-starwars-yoda.jpg")
 
 ???
 
-Open science is collaborative and empowering – it’s like the Force from Star Wars. Like the Force, open science enables us to solve data challenges in ways we never would have imagined was possible. Open science is something we can see and learn and become confident with, and it doesn’t just help us get unstuck from the current challenge in front of us, it also broadens our mindsets for the scope and scale of the research questions we can tackle. I felt the power of open science first through the R community who supported me as a new learner and helped me feel like I wasn’t alone and that it wasn’t too late.
+Open science is collaborative and empowering – it’s like the Force from Star Wars. Like the Force, open science enables us to solve data challenges in ways we never would have imagined was possible. Open science is something we can see and learn and become confident with, and collaborate around, and it doesn’t just help us get unstuck from the current challenge in front of us, it also broadens our mindsets for the scope and scale of the research questions we can tackle. I felt the power of open science first through the R community who supported me as a new learner and helped me feel like I wasn’t alone and that it wasn’t too late.
 
 
 ---
@@ -104,7 +105,7 @@ background-size: contain
 
 ???
 
-We think about open science like a landscape. Our flagship program is Openscapes Champions, which is an open data science mentorship program for teams. We help researchers move from sad and lonely science like the animals on the bottom left to team science as they identify their common needs and start navigating the landscape together with a cohort of their peers. We help them orient to existing pathways in the landscape created by open science communities, and we also build new trails when there is a need. 
+We think about open science like a landscape with many paths forward. Our flagship program with Openscapes is the Champions Program, which is an open data science mentorship program for research teams. We welcome researchers to this this landscape and help them move from sad and lonely science like Luke Skywalker or the animals on the bottom left to team science as they identify their common needs and start navigating the landscape together with a cohort of their peers. 
 
 Transition: So feeling included in open science is a big part of Openscapes
 
@@ -121,14 +122,24 @@ class: center, middle
 background-image: url(images/horst-eco-r4ds.png)  
 background-size: contain
 
-Julie: And another part is helping teams see open science and data science as part of their daily workflow. This means recognizing and expecting that tooling and practices already exist and are available to them to make their analytical life more efficient, resilient, and also enjoyable.
+???
+
+And another part is helping teams see open science and data science as part of their daily workflow. This means recognizing and expecting that tooling and practices already exist and are available to researchers to make their analytical life more efficient, resilient, and also enjoyable.
+
+So this illustration here helps take the data collected by thoughtful environmental scientsts and helps streamline this through differen communication and engagement channels through open data science tools and community practices
 
 ---
+TODO redesign
 class: center, middle
 background-image: url(images/openscapes-impact-pangeo-slide.png)  
 background-size: contain
 
+???
+So we've now led the Openscapes Champions program 5 times and mentored 35 research teams and helped them develop strong practices. These are some of the quotes.
+But most importantly, they're working more openly and effectively together. They've found an entryway to open science by using and tooling and pracitces that are a dialy benefit to their own work, and have become confident contributors to the open science moevement
+
 ---
+exclude: TRUE
 # Better Science for Future Us
 
 open science tooling & practices along with promoting DEI help us ask better questions
@@ -141,11 +152,17 @@ And when we ask better questions and work together, we can find more inclusive s
 ## Practice as a team
 
 ---
-# OHI+Openscapes
+# Openscapes origins
+
+OHI + Communities
 
 ???
 
-So I want to step back for a second, because a lot of the focus of Openscapes was what I learned through doing collaborative data-intensive research with my team through the Ocean Health Index. 
+But let me step back for a second, because a lot of the design of Openscapes come from what I learned through doing collaborative data-intensive research with my team through the Ocean Health Index. 
+
+And I joined this project at a critcal time, both for our growing needs as collaborating around data, and with growing tools and communities. So having a supportive team and a supportive communities and tools has changed my career and my life. 
+
+<!---
 
 I’ve worked with the Ocean Health Index since 2013 and there is a lot to say about it that I won't get into today. What’s relevant here is that we combine and model lots of data, we repeat our analyses every year, and we do it as a team. And, because we are a team of marine ecologists, we all came with varying levels of self-taught analytical experience. 
 
@@ -154,20 +171,22 @@ data analysis were not reproducible by even ourselves.
 
 Getting through this involved quite a reckoning, but when we got through it, we knew we had a story to tell.
 
+--->
 ---
-class: middle, center
-```{r nature-bsilt, out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/nature-screenshot-title.png")
-```
+# OHI
 
-.footnote[
-source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160); web: [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime/)
-]
+# Ocean motivation
+# We learned the hard way we couldn't reproduce our own work. 
+
+**So much time lost and effort wasted:**
+
+- Difficult to iterate or build from our own work (so much reinventing!)
+- Difficult to onboard & offboard team members (so many undoc'd steps & knowledge lost)
+
 
 ???
-
-Figuring out was a big enough deal that we published this in Nature Ecology & Evolution. 
-What made it unique: we shared our struggles, and described the transition
+Reckoning, we had a story to tell. 
+100 diff datasets in Excel, repeat.
 
 ---
 background-image: url(images/bsilt-fig1-simple.png)
@@ -179,10 +198,9 @@ background-size: 45%
 .pull-right[
 ### We learned the hard way we couldn’t reproduce our work
 
-**So much time lost and effort wasted:**
+**Reclaimed time to focus on science**
 
-- Difficult to iterate or build from our own work (so much reinventing!)
-- Difficult to onboard & offboard team members (so many undoc'd steps & knowledge lost)
+- text from NASEM
 
 **Reproducibility is also about *co-developing* analyses**
 
@@ -216,25 +234,64 @@ helped us think differently. with more time, could focus on new science question
 background-image: url(images/lowndes-2017-betterscience-table1.png)
 background-position: 50% 90%
 background-size: 95%
-## R and friends changed how we work
 
 ???
 
-We focused on tools and shared practices that enabled us to work better together. 
+## R and friends changed how we work
+We focused on tools and shared practices that enabled us to work better together.
 
+And this has really resonated with a lot of people who have seen this this is possible, like Luke Skywalker seeing Yoda doing something that he needed to do. And so this paper still resonates and is highly relevant today, four years later. 
 
-Focused on the tools. This paper really resonates with a lot of people. But I also got feedback from early career scientists that I respect, who said: 
+But there is a lot more to share and support to provide to make this a reality for others, and a to help normalize these practices. 
+
+This story has really resonated. But it's also made others feel lonelier. 
+
 
 ---
-
 ## "But I work alone. I'm not part of a team."
 
-## "But I don't repeat my work"
+## "But I don't have time/am not supported"
 
-## "But I wouldn't know where to start"
+## "Just the nature of ecological research"
+
+Sad animals
+
+???
+
+The overwhelm is real. There is a lot more to our better science in less time story and the fact that a main counterpoint to our story is that researchers don't feel supported or part of a team was a huge eye-opener.
+
+This is overwhelming for students, overwhelming for new PIs who are becoming leaders in a completely different landscape that they grew up in and one that most of their previous advisors and committee members did not know. There is something unique about the current generation of new PIs...
+So many pressures on them to be ressearchers and grant writers and communicators and now also data scientists, but with no support. 
+
+So this really crystalized the importance of supporting PIs and teams, helping people feel less alone and that it's not all on their shoulders. Share our stories 
+
+<!---
+The basics: starting to transition your group into open science 
+I need to do ML but I don’t know how to code. 
+I need to make bread, don’t have flour
+Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
+--->
+
+---
+# Better Science for Future Us
+## Taught by the community
+## Practiced as a team
+## Supported as part of our jobs
+## Nurtured growth mindsets
+## Created opportunities for (horizontal) leadership
 
 
 ---
+## Image: focus on trailhead animals
+
+## Skills and habits for ODS: empathy, inclusion, tools.
+
+## really interested in the way software enables kinder science and how empathy is designed into the software we use. 
+
+???
+So Openscapes is an opportunity to make this real for people. I thought of all the mentors I've had, not just within my Ocean Health Index team, but outside of environmental science all toghter. Mozilla, R, Carpentries. Taught me how to teach with empathy, desining for inclusion and openness
+
+
 There were more stories to tell, and more ways to support people. 
 
 And I realized there was a lot more I could do to make this real for people. 
@@ -242,20 +299,9 @@ And I realized there was a lot more I could do to make this real for people.
 I started telling these stories through Openscapes, The inaugural cohort was in 2019.
 
 ---
-Something about teaching: Carpentries, 
+## So here's a few stories about Openscapes: what we do, and what the Champions do 
 
-
----
-Chelsea quote? I didn't realize there was a problem
-
----
-Supercharge
-
-Build trust and normalize data discussions
-
-Identify and address shared needs
-
-Think ahead for Future Us
+Maybe flywheel turning bc of R community????
 
 ---
 class: top, center
@@ -308,105 +354,45 @@ Michelle Fishbowl Chat.
 GitHub Clinics.
 
 ---
-## Build trust, confidence, skills
+## Build shared practices, confidence, skills
 
 <br>
 
 
 ```{r, eval=FALSE, echo=TRUE}
-source("julies_script.R")
+source("julies_script.R")    # all my steps tangled together
 ```
 
 --
 
 ```{r, eval=FALSE, echo=TRUE}
 
-source("common.R")
+source("common.R")           # just my code for a lookup table
 ```
 
 --
 
 ```{r, eval=FALSE, echo=TRUE}
 
-remotes::install_github("ohicore")
+remotes::install_github("ohicore")    # now our code is easier to install
 ```
+
+*<https://github.com/ohi-science/ohicore>*
 
 ???
 My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
 Nonetheless, saved as scripts, in a project-oriented workflow, shared via GitHub
 
 ---
-# Rmd helped us iterate together and helped us communicate
+## Build shared practices, confidence, skills
+
+Another ex with Rmd
+## Rmd helped us iterate together and helped us communicate
 left: made with Rmd for our data preparation
 right: communicate
 
-
 ---
-class: top, center
-## Create place: where to put shared things
-
-<br>
-
-.pull-left[
-### GitHub Organization
-
-```{r ohi-gh-org3, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/ohi-gh-org-name.png")
-```
-
-
-*<https://github.com/ohi-science>*
-]
-
-
-.pull-right[
-### Build trust, confidence, skills
-```{r, eval=FALSE, echo=TRUE}
-source("julies_script.R")
-
-source("common.R")
-```
-]
-
-???
-
-Introduced style guide, tidyverse >> make it easier for code review
-Scope of analysis: Data prep ended as tidy data, then modelling starts
-
----
-class: top, center
-## Create place: where to put shared things
-
-<br>
-
-.pull-left[
-### GitHub Organization
-
-```{r ohi-gh-org4, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/ohi-gh-org-name.png")
-```
-
-
-*<https://github.com/ohi-science>*
-]
-
-
-.pull-right[
-### Build trust, confidence, skills
-```{r, eval=FALSE, echo=TRUE}
-source("julies_script.R")
-
-source("common.R")
-
-remotes::install_github("ohicore")
-```
-
-*<https://github.com/ohi-science/ohicore>*
-]
-
-???
-
-Common scripts, lookup tables >> eventually a package
+# Jenny bryan driving
 
 ---
 class: top, center
@@ -492,6 +478,39 @@ background-size: 80%
 .footnote[[Allison Horst](https://www.allisonhorst.com/)]
 
 ---
+## Supported by our PI: This was part of our jobs
+
+A big part of how we're scaling Openscapes 
+
+---
+## Image: more mentors in the landscape
+
+Animate the landscape
+
+---
+# Flywheel, Erin
+
+Erin saw that this had been our flywheel. 
+
+Went through it by myself with the first cohorts
+
+Now together. 
+
+---
+# Cookbook
+
+---
+# I'm learning all the time
+
+- GitHub branches
+- Quarto
+- Anti-racism
+- Anti-colonialism
+- How to be a better listener
+- How to be a better leader
+
+---
+exclude: TRUE
 class: top, center
 ## Think ahead for Future Us 
 
@@ -507,15 +526,6 @@ class: top, center
 knitr::include_graphics("images/ohi-tbx-training.png")
 ```
 
----
-class: top, center
-## Think ahead for Future Us 
-
-### OHI Fellows program
-
-```{r fellows, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/ohi-team-2018b-crop.jpeg")
-```
 
 ---
 class: top, center
@@ -575,24 +585,6 @@ But also learned a lot since then. New tools, new collaborations, new tech. Also
 Pause and speak to this idea of future us. This is the idea that everything we do we should be thinking about efficiency onwards. MORE.
 
 ---
-# The overwhelm is real. 
-
-Sad animals, Luke?
-
-???
-
-This paper is 4 years old still resonates. Shows what's possible. 
-Still, The overwhelm is real. People say they aren't part of a team. 
-
-Overwhelming for students, overwhelming for new PIs. There is something unique about the current generation of new PIs...
-
-
-???
-The basics: starting to transition your group into open science 
-I need to do ML but I don’t know how to code. 
-I need to make bread, don’t have flour
-Seadide chats: teams don’t hknow how to talk to each other about data. The overwhelm. SLide 22. 
-Overwhelm we hold for the PIs. it doesn’t have to be just you. Future Us. 
 
 ---
 # Openscapes. Zoom faces?
