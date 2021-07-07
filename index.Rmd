@@ -129,12 +129,31 @@ And another part is helping teams see open science and data science as part of t
 So this illustration here helps take the data collected by thoughtful environmental scientsts and helps streamline this through differen communication and engagement channels through open data science tools and community practices
 
 ---
-TODO redesign
-class: center, middle
-background-image: url(images/openscapes-impact-pangeo-slide.png)  
-background-size: contain
+class: inverse, center, middle
+## “This isn’t just about coding & GitHub, it’s about changing the way we do science.” 
+
+**Dr. Malin Pinsky, Rutgers University, 2019 Champion**
+
+## “Openscapes has created a new way of thinking about merging empathy and science. That's an invaluable gift to me.” 
+
+**Dr. Halley Froehlich, UC Santa Barbara, 2019 Champion**
+
+
+---
+background-image: url(images/horst-workflow.png)  
+background-position: 90% 60%  
+background-size: 45%  
+ 
+## Biggest impact: research teams work more openly & effectively together
+
+Teams reframe analysis as collaborative effort not an individual burden, and use open source tools to streamline work/life for Future Us.
+
+less reinventing & loneliness • grant money goes further • co-creating norms promoting diversity, equity & inclusion • new folks onboard to projects faster
+
 
 ???
+
+background-image: url(images/openscapes-impact-pangeo-slide.png) 
 So we've now led the Openscapes Champions program 5 times and mentored 35 research teams and helped them develop strong practices. These are some of the quotes.
 But most importantly, they're working more openly and effectively together. They've found an entryway to open science by using and tooling and pracitces that are a dialy benefit to their own work, and have become confident contributors to the open science moevement
 
@@ -277,16 +296,21 @@ Seadide chats: teams don’t hknow how to talk to each other about data. The ove
 ## Taught by the community
 ## Practiced as a team
 ## Supported as part of our jobs
-## Nurtured growth mindsets
-## Created opportunities for (horizontal) leadership
+## Created opportunities for growth & leadership
 
 
 ---
-## Image: focus on trailhead animals
+background-image: url(images/horst-champions-trailhead.png)
+background-position: 90% 90%
+background-size: 45%
+
+# Cite Supercharge & kinder science
 
 ## Skills and habits for ODS: empathy, inclusion, tools.
 
 ## really interested in the way software enables kinder science and how empathy is designed into the software we use. 
+
+normalize, identify & address, think ahead
 
 ???
 So Openscapes is an opportunity to make this real for people. I thought of all the mentors I've had, not just within my Ocean Health Index team, but outside of environmental science all toghter. Mozilla, R, Carpentries. Taught me how to teach with empathy, desining for inclusion and openness
@@ -298,10 +322,22 @@ And I realized there was a lot more I could do to make this real for people.
 
 I started telling these stories through Openscapes, The inaugural cohort was in 2019.
 
----
-## So here's a few stories about Openscapes: what we do, and what the Champions do 
+ So here's a few stories about Openscapes: what we do, and what the Champions do 
 
-Maybe flywheel turning bc of R community????
+---
+exclude: TRUE
+# Taught by the community. 
+
+What's in this landscape?
+
+unconfs
+study groups
+carpentries workshops
+R confs
+podcasts
+blogs
+tutorials
+Twitter.
 
 ---
 class: top, center
@@ -311,7 +347,7 @@ background-size: 60%
 
 
 ## Create space: how to talk about data
-### "Seaside Chats"
+### "Seaside Chats", Slack
 
 ???
 
@@ -384,15 +420,8 @@ My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
 Nonetheless, saved as scripts, in a project-oriented workflow, shared via GitHub
 
 ---
-## Build shared practices, confidence, skills
+Hilary Parker
 
-Another ex with Rmd
-## Rmd helped us iterate together and helped us communicate
-left: made with Rmd for our data preparation
-right: communicate
-
----
-# Jenny bryan driving
 
 ---
 class: top, center
@@ -465,6 +494,27 @@ Scope of scripts: modular preferred to long epic tome (iterative)
 OHI Hackathons: e.g. main lookup table, purge plyr, reorg ohicore
 Migrated from .R to .Rmd: share methods/instruction, pub’d via GitHub 
 
+---
+## Build shared practices, confidence, skills
+
+## Tidyverse style guide
+
+## Rmd for iteration and communication
+
+## Rmd helped us iterate together and helped us communicate
+left: made with Rmd for our data preparation
+right: communicate
+
+---
+class: inverse, center, middle
+## It’s like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety.
+
+**Jenny Bryan & Jim Hester, [What They Forgot to Teach You About R](https://rstats.wtf/)**
+
+---
+## Think ahead
+
+Gavin's onboarding. 
 
 ---
 exclude: TRUE
