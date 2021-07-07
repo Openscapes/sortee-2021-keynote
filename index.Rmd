@@ -293,8 +293,14 @@ Seadide chats: teams don’t hknow how to talk to each other about data. The ove
 
 ---
 # Better Science for Future Us
-## Taught by the community
-## Practiced as a team
+
+## Leveraging open data science tooling and practices for kinder science
+
+Elevating the visibility and value
+
+### ~Self-taught~  Community-taught
+### ~individual workarounds~ Team-practices
+
 ## Supported as part of our jobs
 ## Created opportunities for growth & leadership
 
@@ -340,55 +346,75 @@ tutorials
 Twitter.
 
 ---
-class: top, center
+class: top
 background-image: url(images/horst-seaside-chats.jpg)
-background-position: 50% 90%
-background-size: 60%
+background-position: 10% 70%
+background-size: 40%
 
+## Create space
 
-## Create space: how to talk about data
-### "Seaside Chats", Slack
+### Build trust and confidence talking about data and sharing imperfect work.
+
+.pull-right[
+<br>
+### Seaside* Chats 
+
+### Hackathons 
+
+<!---### Coding Clubs & Meetups--->
+
+<br>
+<br>
+*Also: Bayside, Bluffside, Riverside... [link]
+]
 
 ???
-
-Build trust, confidence talking about data and sharing imperfect work. 
 
 Seaside chats. PI-supported, not attended. 
 Seaside chats. Prioritize time. Shared space. Normalize. Build up space to ask these questions, develop vocabulary around them. (stuff from CSCCE slides?)
 PI doesn't need more meetings. TRUST WITHIN TEAM. 
 
 ---
-class: top, center
-## Create place: where to put shared things
+class: top
+## Create place
 
-### GitHub Organization
-*<https://github.com/ohi-science>*
+### Build tech and leadership skills...
 
-### Google Drive Folder
+.pull-left[
+
+first:
 
 ```{r, eval=FALSE, echo=TRUE}
-source("julies_script.R")    # all my steps tangled together
+source("julies_script.R")    
 ```
 
---
+then:
 
 ```{r, eval=FALSE, echo=TRUE}
 
-source("common.R")           # just my code for a lookup table
+source("common.R")
 ```
 
---
+and finally:
 
 ```{r, eval=FALSE, echo=TRUE}
 
-remotes::install_github("ohicore")    # now our code is easier to install
+remotes::install_github("ohicore")   
 ```
 
 *<https://github.com/ohi-science/ohicore>*
+]
+
+.pull-right[
+### GitHub Organization
+
+### Google Drive Folder
+]
 
 ???
 
-???
+# all my steps tangled together
+ # now our code is easier to install
 
 GitHub Org, Google Drive.
 And make sure everyone is comfortable using those tools. 
