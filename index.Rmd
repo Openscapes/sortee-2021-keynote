@@ -134,7 +134,7 @@ class: inverse, center, middle
 
 **Dr. Malin Pinsky, Rutgers University, 2019 Champion**
 
-## “Openscapes has created a new way of thinking about merging empathy and science. That's an invaluable gift to me.” 
+## “Openscapes has created a new way of thinking about merging empathy & science, an invaluable gift to me.” 
 
 **Dr. Halley Froehlich, UC Santa Barbara, 2019 Champion**
 
@@ -361,39 +361,10 @@ PI doesn't need more meetings. TRUST WITHIN TEAM.
 class: top, center
 ## Create place: where to put shared things
 
-<br>
-
-.pull-left[
 ### GitHub Organization
-
-```{r ohi-gh-org, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/ohi-gh-org-name.png")
-```
-
-
 *<https://github.com/ohi-science>*
-]
 
-.pull-right[
 ### Google Drive Folder
-
-```{r gdrive, out.width = '60%', fig.align='center'}
-knitr::include_graphics("images/ohi-gdrive.png")
-```
-]
-
-???
-
-GitHub Org, Google Drive.
-And make sure everyone is comfortable using those tools. 
-Michelle Fishbowl Chat.
-GitHub Clinics.
-
----
-## Build shared practices, confidence, skills
-
-<br>
-
 
 ```{r, eval=FALSE, echo=TRUE}
 source("julies_script.R")    # all my steps tangled together
@@ -416,12 +387,22 @@ remotes::install_github("ohicore")    # now our code is easier to install
 *<https://github.com/ohi-science/ohicore>*
 
 ???
+
+???
+
+GitHub Org, Google Drive.
+And make sure everyone is comfortable using those tools. 
+Michelle Fishbowl Chat.
+GitHub Clinics.
+
 My R code was Not Great. Ugly, verbose, brittle, lots of repeating.
 Nonetheless, saved as scripts, in a project-oriented workflow, shared via GitHub
 
 ---
-Hilary Parker
+class: inverse, center, middle
+##“If you want to learn to write, you read a lot, <br>if you want to play music, you listen a lot. <br>It’s hard to do this with data analysis.” 
 
+**Hilary Parker & Roger Peng, [RStudio::conf(2020) keynote](https://rstudio.com/resources/rstudioconf-2020/not-so-standard-deviations-episode-100/) & [NSSD podcast episode 100]( http://nssdeviations.com/100-live-from-rstudio-conf-2020)**
 
 ---
 class: top, center
