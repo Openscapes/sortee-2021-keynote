@@ -140,16 +140,17 @@ class: inverse, center, middle
 
 
 ---
-background-image: url(images/horst-workflow.png)  
+background-image: url()  
 background-position: 90% 60%  
 background-size: 45%  
  
 ## Biggest impact: research teams work more openly & effectively together
 
+.pull-left[
 Teams reframe analysis as collaborative effort not an individual burden, and use open source tools to streamline work/life for Future Us.
 
 less reinventing & loneliness • grant money goes further • co-creating norms promoting diversity, equity & inclusion • new folks onboard to projects faster
-
+]
 
 ???
 
@@ -173,7 +174,18 @@ And when we ask better questions and work together, we can find more inclusive s
 ---
 # Openscapes origins
 
-OHI + Communities
+
+.pull-left[
+```{r ohi-hex, out.width = '70%', fig.align='center'}
+knitr::include_graphics("images/ohi-hex.png")
+```
+]
+
+.pull-right[
+<br>
+![](images/ods-community-logos.png)  
+**Make these bigger**
+]
 
 ???
 
@@ -192,10 +204,10 @@ Getting through this involved quite a reckoning, but when we got through it, we 
 
 --->
 ---
-# OHI
+## Ocean Health Index
 
-# Ocean motivation
-# We learned the hard way we couldn't reproduce our own work. 
+## Ocean motivation
+## We learned the hard way we couldn't reproduce our own work. 
 
 **So much time lost and effort wasted:**
 
@@ -237,23 +249,16 @@ background-size: 45%
 
 ???
 
-This fig shows that as we repeated our analyses each year, they were easier to reproduce and it was easier to collaborate, and it took less time each year. We introduced open data science tools and practices iteratively, first focused on repeatability, then collaboration, and now we're focused on training.
-
-
----
-exclude: TRUE
-# Fig 1 again 
-
-???
-
 helped us think differently. with more time, could focus on new science questions. Could focus on training others
 
+This fig shows that as we repeated our analyses each year, they were easier to reproduce and it was easier to collaborate, and it took less time each year. We introduced open data science tools and practices iteratively, first focused on repeatability, then collaboration, and now we're focused on training.
 
 ---
 background-image: url(images/lowndes-2017-betterscience-table1.png)
-background-position: 50% 90%
-background-size: 95%
+background-position: 50% 75%
+background-size: 90%
 
+## Ocean Health Index Pathway <img src="images/ohi-hex.png" alt="" style="float:right;width:80px;"/>
 ???
 
 ## R and friends changed how we work
@@ -267,13 +272,20 @@ This story has really resonated. But it's also made others feel lonelier.
 
 
 ---
+class: inverse, center, middle
+background-image: url(images/horst-champions-sad.png)
+background-position: 10% 90%
+background-size: 30%
+
 ## "But I work alone. I'm not part of a team."
 
-## "But I don't have time/am not supported"
+## "But I don't have time. I am not supported."
 
-## "Just the nature of ecological research"
+<br>
 
-Sad animals
+<!---
+## “I didn’t think to find solutions, because I didn’t realize that there was a problem; I thought that this was just the nature of doing [ecological] research – an endless pile of confusingly named csv files and R scripts.”
+--->
 
 ???
 
@@ -292,31 +304,42 @@ Seadide chats: teams don’t hknow how to talk to each other about data. The ove
 --->
 
 ---
-# Better Science for Future Us
-
-## Leveraging open data science tooling and practices for kinder science
-
-Elevating the visibility and value
-
-### ~Self-taught~  Community-taught
-### ~individual workarounds~ Team-practices
-
-## Supported as part of our jobs
-## Created opportunities for growth & leadership
-
-
----
 background-image: url(images/horst-champions-trailhead.png)
-background-position: 90% 90%
+background-position: 90% 60%
 background-size: 45%
 
+## Better Science for Future Us
+
+.pull-left[
+### Community-taught
+### Team-practiced
+
+- **Normalize talking about data**
+- **Identify & address shared need**
+- **Think ahead for Future Us**
+]
+
+.pull-right[
+.footer[Link: Supercharge, Kinder Science]
+]
+
+### Leveraging open data science for kinder science
+
+<!---
+### Supported as part of our jobs
+### Created opportunities for growth & leadership
+--->
+
+???
+Elevating the visibility and value
+
+---
+exclude: TRUE
 # Cite Supercharge & kinder science
 
 ## Skills and habits for ODS: empathy, inclusion, tools.
 
 ## really interested in the way software enables kinder science and how empathy is designed into the software we use. 
-
-normalize, identify & address, think ahead
 
 ???
 So Openscapes is an opportunity to make this real for people. I thought of all the mentors I've had, not just within my Ocean Health Index team, but outside of environmental science all toghter. Mozilla, R, Carpentries. Taught me how to teach with empathy, desining for inclusion and openness
@@ -382,22 +405,11 @@ class: top
 
 .pull-left[
 
-first:
 
 ```{r, eval=FALSE, echo=TRUE}
 source("julies_script.R")    
-```
-
-then:
-
-```{r, eval=FALSE, echo=TRUE}
 
 source("common.R")
-```
-
-and finally:
-
-```{r, eval=FALSE, echo=TRUE}
 
 remotes::install_github("ohicore")   
 ```
@@ -524,6 +536,12 @@ class: inverse, center, middle
 Gavin's onboarding. 
 
 ---
+class: top
+background-image: url(images/pathway-example.png)
+background-position: 50% 50%
+background-size: 90%
+
+---
 exclude: TRUE
 class: top, center
 background-image: url(images/horst-workflow.png)
@@ -545,7 +563,7 @@ A big part of how we're scaling Openscapes
 Animate the landscape
 
 ---
-# Flywheel, Erin
+# Flywheel
 
 Erin saw that this had been our flywheel. 
 
@@ -557,7 +575,7 @@ Now together.
 # Cookbook
 
 ---
-# I'm learning all the time
+# Learning all the time
 
 - GitHub branches
 - Quarto
