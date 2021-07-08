@@ -176,7 +176,7 @@ And when we ask better questions and work together, we can find more inclusive s
 
 
 .pull-left[
-```{r ohi-hex, out.width = '70%', fig.align='center'}
+```{r ohi-hex, out.width = '45%', fig.align='center'}
 knitr::include_graphics("images/ohi-hex.png")
 ```
 ]
@@ -204,7 +204,7 @@ Getting through this involved quite a reckoning, but when we got through it, we 
 
 --->
 ---
-## Ocean Health Index
+## Ocean Health Index - combine w next slide
 
 ## Ocean motivation
 ## We learned the hard way we couldn't reproduce our own work. 
@@ -227,7 +227,6 @@ background-size: 45%
 ## More reproducibility & collaboration, less time
 
 .pull-right[
-### We learned the hard way we couldn’t reproduce our work
 
 **Reclaimed time to focus on science**
 
@@ -308,7 +307,7 @@ background-image: url(images/horst-champions-trailhead.png)
 background-position: 90% 60%
 background-size: 45%
 
-## Better Science for Future Us
+## Openscapes: Better Science for Future Us
 
 .pull-left[
 ### Community-taught
@@ -317,14 +316,18 @@ background-size: 45%
 - **Normalize talking about data**
 - **Identify & address shared need**
 - **Think ahead for Future Us**
+
+Cite: Supercharge, kinder science
 ]
 
 .pull-right[
-.footer[Link: Supercharge, Kinder Science]
+### People, Process, Technology
 ]
 
+<!---
 ### Leveraging open data science for kinder science
 
+--->
 <!---
 ### Supported as part of our jobs
 ### Created opportunities for growth & leadership
@@ -332,6 +335,8 @@ background-size: 45%
 
 ???
 Elevating the visibility and value
+
+We've learned so much. Systemic racism and colonialism. Critical importance of DEI
 
 ---
 exclude: TRUE
@@ -397,11 +402,24 @@ Seaside chats. PI-supported, not attended.
 Seaside chats. Prioritize time. Shared space. Normalize. Build up space to ask these questions, develop vocabulary around them. (stuff from CSCCE slides?)
 PI doesn't need more meetings. TRUST WITHIN TEAM. 
 
+Through Oopenscapes we normalize talking about data. We introduce this landscapes of communities and have each team have seaside chats. PIs participate in the cohort calls to see what's possilble but aren't required to attend Seaside Chats: build up that horizontal leadership and trust. Help people find their trailheads and 
+
+
+---
+class: top
+background-image: url(images/champions-zoom-logos.png)
+background-position: 50% 50%
+background-size: 100%
+
+???
+
+PI attends with team
+
 ---
 class: top
 ## Create place
 
-### Build tech and leadership skills...
+### Build habits and skills for contributing
 
 .pull-left[
 
@@ -417,11 +435,14 @@ remotes::install_github("ohicore")
 *<https://github.com/ohi-science/ohicore>*
 ]
 
+<!---
 .pull-right[
 ### GitHub Organization
 
 ### Google Drive Folder
 ]
+
+--->
 
 ???
 
@@ -452,6 +473,7 @@ class: top, center
 R functions & workflows  
 Git/Hub with R  
 R for Excel Users  
+R packages   
 How do other people use R?
 
 ]
@@ -459,6 +481,7 @@ How do other people use R?
 .pull-right[
 ### Team workflows
 Name files  
+Coding conventions  
 Organize data in spreadsheets  
 Good enough practices  
 How do other people talk about data?
@@ -484,6 +507,7 @@ class: top, center
 [R for Data Science](https://r4ds.had.co.nz) - Wickham & Grolemund  
 [Happy Git with R](https://happygitwithr.com) - Bryan et al  
 [R for Excel Users](https://rstudio-conf-2020.github.io/r-for-excel/) - Lowndes & Horst  
+[R Packages](https://r-pkgs.org/) - Wickham & Bryan  
 [We Are RLadies (Twitter)](https://twitter.com/wearerladies) - RLadies Global
 
 ]
@@ -495,6 +519,7 @@ class: top, center
 .pull-right[
 ### Team workflows
 [How to Name Files](https://speakerdeck.com/jennybc/how-to-name-files?slide=1) - Bryan  
+[Coding style guide](https://style.tidyverse.org/index.html) - Wickham
 [Data Organization in Spreadsheets](https://peerj.com/preprints/3183/) - Broman & Woo  
 [Good Enough Practices](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#) - Wilson et al  
 [Not So Standard Deviations](https://nssdeviations.com/) - Parker & Peng 
@@ -502,7 +527,7 @@ class: top, center
 
 <br>
 
-### seaside chats • lab "hackathons" • coding clubs • blogs • slides • tutorials • (un)conferences 
+### Learn with/from/for others to build shared practices, confidence, skills<br>blogs • slides • tutorials
 
 ???
 
@@ -514,15 +539,17 @@ OHI Hackathons: e.g. main lookup table, purge plyr, reorg ohicore
 Migrated from .R to .Rmd: share methods/instruction, pub’d via GitHub 
 
 ---
-## Build shared practices, confidence, skills
+class: top
+background-image: url(images/rmd-champions-slide-bsilt.png)
+background-position: 50% 50%
+background-size: 100%
 
-## Tidyverse style guide
+???
+R Markdown for iteration and communication
 
-## Rmd for iteration and communication
+Rmd helped us iterate together and helped us communicate
 
-## Rmd helped us iterate together and helped us communicate
-left: made with Rmd for our data preparation
-right: communicate
+We talk about how shared tools and practices and build confidence and skills
 
 ---
 class: inverse, center, middle
@@ -531,9 +558,20 @@ class: inverse, center, middle
 **Jenny Bryan & Jim Hester, [What They Forgot to Teach You About R](https://rstats.wtf/)**
 
 ---
-## Think ahead
+class: top
+background-image: url(images/faylab-manual.png)
+background-position: 90% 50%
+background-size: 50%
 
-Gavin's onboarding. 
+## Think ahead for Future Us
+
+<br>
+
+### Code of Conduct
+
+### Onboarding
+
+### Data Management
 
 ---
 class: top
@@ -553,6 +591,33 @@ background-size: 80%
 .footnote[[Allison Horst](https://www.allisonhorst.com/)]
 
 ---
+background-image: url(images/horst-champions-trailhead.png)
+background-position: 90% 60%
+background-size: 45%
+
+## Openscapes: Better Science for Future Us
+
+.pull-left[
+### Community-taught
+### Team-practiced
+
+- **Normalize talking about data**
+- **Identify & address shared need**
+- **Think ahead for Future Us**
+
+### Supported as part of our jobs
+### Created opportunities for growth & leadership
+
+Cite: Supercharge, kinder science
+]
+
+.pull-right[
+### People, Process, Technology
+]
+
+???
+Elevating the visibility and value
+
 ## Supported by our PI: This was part of our jobs
 
 A big part of how we're scaling Openscapes 
@@ -560,10 +625,14 @@ A big part of how we're scaling Openscapes
 ---
 ## Image: more mentors in the landscape
 
-Animate the landscape
+Animate the landscape like Erin did for Pangeo
 
 ---
-# Flywheel
+background-image: url(images/flywheel.png)
+background-position: 50% 50%
+background-size: 95%
+
+???
 
 Erin saw that this had been our flywheel. 
 
@@ -584,82 +653,6 @@ Now together.
 - How to be a better listener
 - How to be a better leader
 
----
-exclude: TRUE
-class: top, center
-## Think ahead for Future Us 
-
-```{r ohi-sop, out.width = '80%', fig.align='center'}
-knitr::include_graphics("images/ohi-sop-full.png")
-```
-
----
-class: top, center
-## Think ahead for Future Us 
-
-```{r ohi-tbx, out.width = '80%', fig.align='center'}
-knitr::include_graphics("images/ohi-tbx-training.png")
-```
-
-
----
-class: top, center
-## Think ahead for Future Us 
-
-.pull-left[
-### RStudio Visual Editor
-
-```{r rstudio-ve, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/rstudio-visual-editor.png")
-```
-
-*<https://rstudio.github.io/visual-markdown-editing>*
-]
-
-
-.pull-right[
-### RMarkdown
-```{r xaringan, out.width = '90%', fig.align='center'}
-knitr::include_graphics("images/xaringan-flipook-evamaerey.png")
-```
-
-<br>
-
-*<https://bookdown.org/yihui/rmarkdown/xaringan>, <http://arm.rbind.io/slides/xaringan>, https://evamaerey.github.io/ggplot_flipbook*
-]
-
----
-class: top, center
-## Think ahead for Future Us 
-
-```{r community-logos, out.width = '100%', fig.align='center'}
-knitr::include_graphics("images/ods-community-logos.png")
-```
-
-
-### [rOpenSci](https://ropensci.org) • [RStudio](https://rstudio.com) • [Mozilla](https://mozilla.org) • [RLadies](https://rladies.org) • [Carpentries](https://carpentries.org/)  
-
----
-# Think ahead for Future Us // giving back to the community. 
-
-onboarding docs: ods training, toolbox training, fellows. Blogs. 
-
-???
-Expanded the way we can contribute to science. Blogs. Dashboards. Tweets. Community events. 
-Talking about data helped us become leaders ourselves. Beyond less reinventing, but for more innovation. teaching each other, sharing what we learned. RLadiesSB, Eco-Data-Science
-
----
-# Better science for future us
-
-Summarize: this is what better science for future us can look like. 
-
-But also learned a lot since then. New tools, new collaborations, new tech. Also about systemic racism decolonizing science. Erin Robinson.
-
-???
-
-Pause and speak to this idea of future us. This is the idea that everything we do we should be thinking about efficiency onwards. MORE.
-
----
 
 ---
 # Openscapes. Zoom faces?
@@ -673,12 +666,7 @@ that's key elements for Openscapes. Center DEI. help people think about Future U
 
 Providing people an opportunity to see that it can be different. Ripple out. 
 
----
-# Pathway example
 
-???
-
-Through Oopenscapes we normalize talking about data. We introduce this landscapes of communities and have each team have seaside chats. PIs participate in the cohort calls to see what's possilble but aren't required to attend Seaside Chats: build up that horizontal leadership and trust. Help people find their trailheads and 
 
 ---
 # Openscapes Champions quotes/impact
